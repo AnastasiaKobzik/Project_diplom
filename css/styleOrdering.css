@@ -1,0 +1,246 @@
+@charset "UTF-8";
+.imgAndDescr {
+  margin-bottom: 30px;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.imgAndDescr img {
+  width: 100%;
+  height: 280px;
+  border-radius: 4px;
+}
+
+.headingPage {
+  font-family: "Oswald", sans-serif;
+  font-size: 24px;
+  line-height: 36px;
+  color: #2C2C2C;
+  margin-bottom: 0;
+}
+
+.dispFlex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.backBasket {
+  /*border: 0;
+  background: transparent;*/
+  cursor: pointer;
+}
+
+/*.backBasket:focus{
+	outline: 0!important;
+}*/
+.backBasket img {
+  width: 45px;
+  height: 15px;
+}
+
+.nameProd2 {
+  display: none;
+}
+
+.nameAndDescr p:first-child {
+  display: block;
+}
+
+.nameAndDescr p:first-child, .nameProd2 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 27px;
+  color: #2C2C2C;
+}
+
+.nameAndDescr p {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #2C2C2C;
+}
+
+.formOrder {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #2C2C2C;
+  margin-top: 30px;
+}
+
+.formOrder input, .formOrder select {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #2C2C2C;
+}
+
+.headingForm {
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 27px;
+  color: #2C2C2C;
+}
+
+.form-checkCheck {
+  padding-left: 0 !important;
+}
+
+/*кастомные checkbox*/
+.customCheck {
+  position: absolute !important;
+  z-index: -1;
+  opacity: 0;
+}
+
+.customCheck + label {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+  cursor: pointer;
+}
+
+.customCheck + label::before {
+  margin-right: 10px;
+  content: "";
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  flex-shrink: 0;
+  flex-grow: 0;
+  border: 1px dashed #2C2C2C;
+  border-radius: 1em;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+}
+
+.customCheck + label:hover::before {
+  border: 1px dashed #D11F1F;
+}
+
+.customCheck:checked + label::before {
+  border-color: #fff;
+  border-width: 3.5px;
+  border-style: solid;
+  outline: solid 1px #d11f1f;
+  background-color: #D11F1F;
+}
+
+/*---------------------*/
+.info {
+  justify-content: space-between;
+}
+
+.method, .formUser, .ourOrder {
+  border: 1px solid #2C2C2C;
+  border-radius: 4px;
+  padding: 30px;
+}
+
+.formUser input, .formUser select {
+  width: 100%;
+  height: 35px !important;
+  margin-bottom: 10px;
+}
+
+.ourOrderRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.ourOrder {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.butOrder {
+  display: flex;
+  justify-content: center;
+}
+
+.butOrder button {
+  width: 167px;
+  height: 41px;
+  background: #D11F1F;
+  border-radius: 9px;
+  border: 0;
+  cursor: pointer;
+  color: #fff;
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.butOrder button:hover {
+  box-shadow: 1px 1px 6px rgba(209, 31, 31, 0.63);
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+  -webkit-appearance: textfield;
+  appearance: textfield;
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  display: none;
+}
+
+.close:focus, .butOrder button:focus, #orderProduct .modal-footer button:focus {
+  outline: 0 !important;
+}
+
+#orderProduct .modal-body p, #noUseBonuses .modal-body p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  color: #2C2C2C;
+}
+
+#noUseBonuses .modal-footer, #orderProduct .modal-footer {
+  padding-top: 0;
+}
+
+@media (max-width: 576px) {
+  .imgAndDescr img {
+    width: 238px;
+  }
+
+  /*.photoOrder{
+  	display: flex;
+  	justify-content: center;
+  }*/
+  .nameProd2 {
+    display: block;
+  }
+
+  .nameAndDescr p:first-child {
+    display: none;
+  }
+
+  .info {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  }
+}
+/*# sourceMappingURL=styleOrdering.scss.map */
+
+/*# sourceMappingURL=styleOrdering.css.map */

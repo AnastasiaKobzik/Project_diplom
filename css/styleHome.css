@@ -1,0 +1,66 @@
+@charset "UTF-8";
+/*кнопка наверх*/
+#backTopHome {
+  overflow: hidden;
+  z-index: 999;
+  display: none;
+  cursor: pointer;
+  position: fixed;
+  bottom: 50px;
+  right: 30px;
+  width: 40px;
+  height: 70px;
+  background: url(../img/butTop.svg) no-repeat;
+}
+
+/*-------------*/
+/*-----------*/
+@media (min-width: 992px) {
+  .paddNo {
+    padding: 0 !important;
+  }
+
+  .paddNo .navbar-nav {
+    justify-content: end;
+  }
+}
+@media (max-width: 992px) {
+  #backTopHome {
+    background: url(../img/butTopWhite.svg) no-repeat;
+  }
+
+  .navbar-light .navbar-toggler-icon {
+    background-image: url("../img/list.svg") !important;
+  }
+
+  .btnMenuForUsers {
+    background: url("../img/list.svg") no-repeat center;
+  }
+
+  .navbar-light .navbar-nav .nav-link, .font-monts a {
+    color: #fff !important;
+    text-align: right;
+  }
+
+  .navbar-brand, .logo {
+    background: url("../img/logoLight.svg") no-repeat center;
+  }
+
+  .footer p {
+    color: #fff;
+  }
+
+  .navCollapseNoPadding {
+    padding: 80px 15px 30px 30px;
+    background: #7D7D7D;
+    box-shadow: 10px 15px 15px #7D7D7D;
+    top: -10px;
+    z-index: -1;
+    position: absolute;
+    right: 0;
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=styleHome.scss.map */
+
+/*# sourceMappingURL=styleHome.css.map */

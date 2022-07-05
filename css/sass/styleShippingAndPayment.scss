@@ -1,0 +1,90 @@
+.headingPage {
+  font-family: "Oswald", sans-serif;
+  font-size: 24px;
+  line-height: 36px;
+  color: #2C2C2C;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+.hedingParagraph {
+  font-family: "Oswald", sans-serif;
+  font-size: 24px;
+  line-height: 36px;
+  color: #2C2C2C;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.shipping p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #2C2C2C;
+}
+
+.imgStep, .imgShip, .imgStep4 {
+  height: 310px;
+  width: 100%;
+  border-radius: 4px;
+}
+
+.displCol {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.disp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.shipping {
+  margin-bottom: 80px;
+}
+
+.txt {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #2C2C2C;
+}
+
+@media (max-width: 576px) {
+  .shipping p, .txt {
+    font-size: 14px;
+  }
+
+  .imgShip {
+    height: 310px;
+    width: 270px;
+  }
+
+  .imgShipping {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 992px) {
+  .none {
+    display: none;
+  }
+
+  .none1 {
+    display: none;
+  }
+
+  .imgStep4 {
+    height: 310px;
+    width: 270px;
+  }
+
+  .imgStepSize {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/*# sourceMappingURL=styleShippingAndPayment.scss.map */

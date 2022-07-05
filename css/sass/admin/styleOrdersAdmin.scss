@@ -1,0 +1,150 @@
+@charset "UTF-8";
+.headingSearch, .ordersCategory {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.headingPage {
+  font-family: "Oswald", sans-serif;
+  font-size: 24px;
+  line-height: 36px;
+  color: #2C2C2C;
+}
+
+/*КНОПКА ПОИСКА*/
+.search {
+  color: #D11F1F !important;
+  border-color: #D11F1F !important;
+}
+
+.search:hover {
+  color: #fff !important;
+  background: #D11F1F !important;
+}
+
+.search:focus {
+  box-shadow: 0 0 0 0.2rem rgb(209 31 31/30%) !important;
+}
+
+/*--------------*/
+#modalOk .modal-header {
+  padding-bottom: 0;
+}
+
+.btn-dark:hover {
+  box-shadow: 1px 1px 6px rgb(209 31 31/0%) !important;
+}
+
+.categories {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.categories button:focus {
+  outline: 0 !important;
+}
+
+.all, .unaccepted {
+  margin-right: 40px;
+}
+
+.all, .unaccepted, .completed {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 0;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+.unaccepted, .completed {
+  color: #2C2C2C;
+}
+
+.all {
+  text-decoration: underline;
+  color: #D11F1F;
+}
+
+.categories button:hover {
+  color: #D11F1F;
+  text-decoration: underline;
+}
+
+/*.all{
+	text-decoration: underline;
+	color: #D11F1F!important;
+}*/
+.ordersCategory {
+  align-items: center;
+}
+
+/*------таблица------*/
+table thead th {
+  vertical-align: top !important;
+}
+
+table td, table th {
+  vertical-align: middle !important;
+}
+
+td {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  color: #2C2C2C;
+  font-weight: 400;
+}
+
+th {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+table {
+  text-align: center;
+}
+
+.hoverMore {
+  position: relative;
+}
+
+.moreOrdUser, .moreOrdNoUser {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 95px;
+  bottom: 0;
+}
+
+.table-hover tbody tr:hover {
+  /*background-color: rgba(0,0,0,.6)!important;*/
+  cursor: pointer;
+}
+
+.table-hover tbody tr:hover .moreOrdUser {
+  display: block;
+}
+
+.table-hover tbody tr:hover .moreOrdNoUser {
+  display: block;
+}
+
+.comeBack {
+  background: transparent;
+  border: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  cursor: pointer;
+}
+
+/*----------*/
+
+/*# sourceMappingURL=styleOrdersAdmin.scss.map */

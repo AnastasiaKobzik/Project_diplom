@@ -1,0 +1,534 @@
+@charset "UTF-8";
+.dispRowFilling {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.additionally {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.headingSearch {
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.form-inline {
+  -ms-flex-flow: row nowrap !important;
+  flex-flow: row nowrap !important;
+  justify-content: end;
+}
+
+.headingPage {
+  font-family: "Oswald", sans-serif;
+  font-size: 24px;
+  line-height: 36px;
+  color: #2C2C2C;
+}
+
+/*КНОПКА ПОИСКА*/
+.search {
+  color: #D11F1F !important;
+  border-color: #D11F1F !important;
+}
+
+.search:hover {
+  color: #fff !important;
+  background: #D11F1F !important;
+}
+
+.search:focus {
+  box-shadow: 0 0 0 0.2rem rgba(209, 31, 31, 0.3) !important;
+}
+
+/*--------------*/
+.categories {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.all, .cakes, .cheescakes, .pastries, .cupcakes, .formsDecorType, .fillingType {
+  margin-right: 40px;
+  margin-bottom: 0;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.cakes, .cheescakes, .pastries, .cupcakes, .formsDecorType {
+  color: #2C2C2C;
+}
+
+.all, .fillingType {
+  text-decoration: underline;
+  color: #D11F1F;
+}
+
+.categories button:hover {
+  color: #D11F1F;
+  text-decoration: underline;
+}
+
+.additionally button:hover {
+  color: #D11F1F;
+  text-decoration: underline;
+}
+
+.numberOrder {
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  color: #2C2C2C;
+}
+
+.dispRowFilling p {
+  margin-bottom: 0;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.dispRowCategory {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+  justify-content: space-between;
+}
+
+.dispRowCategory, .additionally, .dispRowFilling {
+  align-items: center;
+}
+
+.addProduct, .addFilling, .addDecor, .saveEditDecor, .addForm, .saveEditForm {
+  font-family: "Oswald", sans-serif;
+  color: #D11F1F;
+  background: #fff;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  border: 1px solid #D11F1F;
+  cursor: pointer;
+}
+
+/*.anyform{
+	margin-left: 15px;
+}*/
+.anyform .row {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+  align-items: center;
+}
+
+.anyform {
+  padding-left: 0 !important;
+}
+
+.rowForm {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 15px;
+}
+
+.rowForm label {
+  margin-right: 15px;
+}
+
+.rowForm textarea {
+  width: 300px;
+  height: 100px;
+}
+
+button:focus {
+  outline: 0 !important;
+}
+
+.delete {
+  color: #D11F1F;
+  background: #fff;
+  border-radius: 9px;
+  border: 1px solid #D11F1F !important;
+  cursor: pointer;
+}
+
+/*----- SLIDER -----*/
+.slick-slider {
+  margin-top: 35px;
+}
+
+.slick-slider .slide {
+  width: 74% !important;
+  display: block !important;
+  position: relative;
+  margin: auto;
+}
+
+.slick-slider .slide a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: #2C2C2C;
+}
+
+.slick-slider .slide a:hover {
+  text-decoration: none;
+}
+
+.slick-slider .slide img {
+  border-radius: 4px;
+  height: 334px;
+  width: 100%;
+}
+
+.slider-hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 0px;
+  cursor: pointer;
+  text-align: center;
+  line-height: 20;
+  font-family: "Oswald", sans-serif;
+  font-size: 18px;
+  color: #FFFFFF;
+  background: rgba(0, 0, 0, 0.48);
+  display: none;
+  border-radius: 4px;
+}
+
+.slick-slider .slide:hover .slider-hover {
+  display: block;
+}
+
+.arrowSlide {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.slick-dots li.slick-active button:before {
+  opacity: 1 !important;
+  font-size: 10px !important;
+}
+
+.slick-dots li button:before {
+  top: 26px !important;
+  color: #D11F1F !important;
+}
+
+.prevArrow {
+  margin-right: 100px;
+  cursor: pointer;
+}
+
+.nextArrow {
+  margin-left: 100px;
+  cursor: pointer;
+}
+
+.editProduct1, .editFill {
+  display: flex;
+  flex-direction: row;
+}
+
+.editProduct1 img, .editFill img {
+  width: 235px;
+  height: 265px;
+  border-radius: 4px;
+}
+
+/*.descr{
+	margin-left: 30px;
+}*/
+.nameViewProd {
+  display: none;
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 27px;
+  color: #2C2C2C;
+}
+
+.descr p:first-child {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 27px;
+  display: block;
+  color: #2C2C2C;
+}
+
+.descr p {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #2C2C2C;
+}
+
+.formEdit, .formAddFill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.upload {
+  width: 180px;
+  margin-top: 20px;
+}
+
+.noAdd {
+  font-family: "Oswald", sans-serif;
+  color: #D11F1F;
+  background: #fff;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  border: 1px solid #D11F1F;
+  cursor: pointer;
+}
+
+.nameEditDelete2 {
+  display: none;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nameEditDelete {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nameEditDelete p, .nameEditDelete2 p {
+  margin-bottom: 0;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #2C2C2C;
+}
+
+.nameEditDelete button, .nameEditDelete2 button {
+  background: transparent;
+  cursor: pointer;
+  border: 0;
+}
+
+.nameEditDelete button img, .nameEditDelete2 button img {
+  width: 16px;
+  height: 16px;
+}
+
+.textareaIndex {
+  border: 0;
+}
+
+.formEdit, .formEdit input, .formEdit select, .formEdit option, .formEdit textarea, .formAddFill, .formAddFill input {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px !important;
+}
+
+.formAdd, .formAdd input, .formAdd select, .formAdd option, .formAdd textarea {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px !important;
+}
+
+.imgEditModalFill img, .imgViewModalProd img, .imgEditModalProd img {
+  width: 100%;
+  height: 265px;
+  border-radius: 4px;
+}
+
+.butChange {
+  padding-top: 0 !important;
+}
+
+.textareaAddForm {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px !important;
+  line-height: 22px;
+  color: #2C2C2C;
+  width: 100%;
+}
+
+.textareaIndex, .textareaForm {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px !important;
+  line-height: 22px;
+  color: #2C2C2C;
+  width: 100%;
+  height: 100%;
+}
+
+.imgFilling img {
+  width: 100%;
+  height: 220px;
+}
+
+.allDescr {
+  display: flex;
+  flex-direction: column;
+}
+
+.nameFormDecor {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.displRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.editDecor, .deleteDecor, .editForm, .deleteForm {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+.displRow input, .addDecorModal input, .addFormModal input {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px !important;
+}
+
+.displRow label, .addDecorModal label, .success, .addFormModal label {
+  margin-bottom: 0;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.displRow button img {
+  width: 14px;
+  height: 14px;
+}
+
+.addDecorModal p {
+  margin-bottom: 0;
+}
+
+.formAddDecor, .formAddForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#saveEditFilling .modal-header, #addFilling .modal-header {
+  padding-bottom: 0;
+}
+
+#saveEditFilling .modal-body p, #deleteFilling .modal-body p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+
+/*------- @MEDIA ---------*/
+@media (max-width: 576px) {
+  .nameEditDelete2 {
+    display: flex;
+  }
+
+  .nameEditDelete {
+    display: none;
+  }
+
+  .imgFilling {
+    display: flex;
+    justify-content: center;
+  }
+
+  .imgFilling img {
+    width: 220px;
+  }
+
+  .blokFilling .row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  .formsDecorType {
+    margin-right: 0;
+  }
+
+  .fillingType {
+    margin-right: 20px;
+  }
+}
+@media (min-width: 576px) {
+  /*.imgFilling img{
+  	width: 100%;
+  	height: 220px;
+  }*/
+}
+@media (min-width: 768px) {
+  #viewProduct .modal-dialog, #addProduct .modal-dialog, #editFilling .modal-dialog {
+    max-width: 700px;
+  }
+}
+@media (max-width: 768px) {
+  .dispRowFilling {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .imgEditModalFill img, .imgViewModalProd img, .imgEditModalProd img {
+    width: 235px;
+  }
+
+  .imgEditModalFill, .imgViewModalProd, .imgEditModalProd {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nameViewProd {
+    display: block;
+  }
+
+  .descr p:first-child {
+    display: none;
+  }
+
+  .slick-slider .slide {
+    width: 280px !important;
+  }
+}
+/*# sourceMappingURL=styleIndexAdmin.scss.map */
+
+/*# sourceMappingURL=styleIndexAdmin.css.map */

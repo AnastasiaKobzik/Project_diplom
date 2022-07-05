@@ -1,0 +1,370 @@
+@charset "UTF-8";
+#modalOk .modal-header {
+  padding-bottom: 0;
+}
+
+#modalOk .modal-body {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 17px;
+  color: #2C2C2C;
+}
+
+.headingPage {
+  font-family: "Oswald", sans-serif;
+  font-size: 24px;
+  line-height: 36px;
+  color: #2C2C2C;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+
+.ordersType {
+  margin-left: -5px !important;
+  margin-right: 0 !important;
+}
+
+.ordersType button {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+.ordersType button:last-child {
+  color: #2C2C2C;
+}
+
+.ordersType button:first-child {
+  color: #D11F1F;
+  text-decoration: underline;
+  margin-right: 40px;
+}
+
+.ordersType button:hover {
+  color: #D11F1F;
+  text-decoration: underline;
+}
+
+.deleteOrder {
+  width: 17px;
+  height: 17px;
+}
+
+.delete {
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.delete:focus, .close:focus {
+  outline: 0 !important;
+}
+
+.imgOrder {
+  width: 238px;
+  height: 238px;
+  border-radius: 4px;
+}
+
+.dateAndDelete {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dateAndDelete p {
+  margin-bottom: 0;
+}
+
+.orderRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.orderRow {
+  margin-bottom: 10px;
+}
+
+.ordersNull a {
+  font-weight: 600;
+  line-height: 22px;
+  color: #2C2C2C;
+  text-decoration: underline;
+}
+
+.ordersNull a:hover {
+  color: #D11F1F;
+}
+
+.ordersNull {
+  height: 50vh;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #2C2C2C;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.descrOrder {
+  margin-left: 20px;
+}
+
+.descrOrder p:first-child {
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 27px;
+  color: #2C2C2C;
+}
+
+.butUpdate p {
+  margin-bottom: 0;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  line-height: 17px;
+  color: #2C2C2C;
+  text-align: right;
+}
+
+.butUpdate p {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.butUpdate {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  align-items: center;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.descrOrder p {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #2C2C2C;
+}
+
+.buttonUpdate, .buttonCancelOrd {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #E86767;
+  background: #fff;
+  width: 142px;
+  height: 41px;
+  cursor: pointer;
+  border: 1px solid #E86767;
+  box-sizing: border-box;
+  border-radius: 9px;
+}
+
+.buttonUpdate:focus, .buttonCancelOrd:focus {
+  outline: 0 !important;
+}
+
+.buttonUpdate:hover, .buttonCancelOrd:hover {
+  box-shadow: 1px 1px 6px rgba(209, 31, 31, 0.63);
+}
+
+.formOneOrder {
+  margin-bottom: 40px;
+}
+
+.method, .info {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #2C2C2C;
+  border: 1px solid #2C2C2C;
+  border-radius: 4px;
+  padding: 30px;
+}
+
+.method {
+  margin-left: 20px;
+  margin-right: 5px;
+}
+
+.method .form-check {
+  margin-bottom: 10px;
+}
+
+.updateOrder {
+  padding: 16px;
+}
+
+.info {
+  margin-left: 5px;
+  margin-right: 20px;
+}
+
+.info input {
+  width: 100%;
+  height: 35px;
+  margin-bottom: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #2C2C2C;
+}
+
+.headingForm {
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #2C2C2C;
+}
+
+.nameColumn, .nameRow {
+  margin-bottom: 0;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  line-height: 17px;
+  color: #2C2C2C;
+}
+
+.nameColumn {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.nameRow {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.butMore {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.butMore button, .butMore a {
+  border: 0;
+  background: transparent;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  line-height: 17px;
+  color: #2C2C2C;
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.butMore button:focus {
+  outline: 0px dotted !important;
+  outline: 0px auto -webkit-focus-ring-color !important;
+}
+
+.method .form-check {
+  padding-left: 0 !important;
+}
+
+/*кастомные checkbox*/
+.customCheck {
+  position: absolute !important;
+  z-index: -1;
+  opacity: 0;
+}
+
+.customCheck + label {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+  cursor: pointer;
+}
+
+.customCheck + label::before {
+  margin-right: 10px;
+  content: "";
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  flex-shrink: 0;
+  flex-grow: 0;
+  border: 1px dashed #2C2C2C;
+  border-radius: 1em;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+}
+
+.customCheck + label:hover::before {
+  border: 1px dashed #D11F1F;
+}
+
+.customCheck:checked + label::before {
+  border-color: #fff;
+  border-width: 3.5px;
+  border-style: solid;
+  outline: solid 1px #d11f1f;
+  background-color: #D11F1F;
+}
+
+/*---------------------*/
+#updateOrder .modal-header, #updateOrder .modal-body {
+  padding-bottom: 0;
+}
+
+#updateOrder .modal-body {
+  padding-top: 0;
+}
+
+/*------- @MEDIA ---------*/
+@media (min-width: 768px) {
+  #updateOrder .modal-dialog {
+    max-width: 700px;
+  }
+}
+@media (max-width: 768px) {
+  .method {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .info {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+@media (max-width: 576px) {
+  .imgOrder {
+    width: 170px;
+    height: 220px;
+  }
+
+  .descrOrder p:first-child {
+    font-size: 20px;
+  }
+}
+/*# sourceMappingURL=styleAllOrders.scss.map */
+
+/*# sourceMappingURL=styleAllOrders.css.map */

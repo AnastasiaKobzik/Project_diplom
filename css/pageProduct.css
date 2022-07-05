@@ -1,0 +1,554 @@
+@charset "UTF-8";
+.deskrOrd p:not(:first-child), .slick-slider .slide p:last-child, .descrFill button, .descrOrFill p, .form-order {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+}
+
+.ordUser, .ordUser .inp, .ordUser p, .ordNoUseInfo, #inLikeModal .modal-body p, #inBasketModal .modal-body p, #modalOk .modal-body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+
+.ordUser p:first-child, .namePr, .but {
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+}
+
+.ourOrd, .slick-slider .slide p:first-child, .nameProd, .headingName {
+  font-family: "Oswald", sans-serif;
+  font-size: 24px;
+}
+
+#modalOk .modal-header {
+  padding-bottom: 0;
+}
+
+#modalOk .modal-body {
+  text-align: center;
+  font-weight: 400;
+  line-height: 17px;
+  color: #2C2C2C;
+}
+
+.headingName {
+  line-height: 36px;
+  color: #2C2C2C;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+
+.dispFlex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.backCatalog {
+  cursor: pointer;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+
+.backCatalog img {
+  width: 45px;
+  height: 15px;
+}
+
+.nameAndBut {
+  /*display: flex;
+  flex-direction: row;*/
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+  justify-content: space-between;
+}
+
+.rowPhotoDescr {
+  justify-content: center;
+}
+
+.imgEnd {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+
+.imgEnd img {
+  height: 480px;
+  width: 100%;
+  border-radius: 4px;
+}
+
+.nameProd {
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27px;
+  color: #2C2C2C;
+}
+
+.butBaskLike button, .descrFill button {
+  background: transparent;
+  border: 0px;
+  cursor: pointer;
+}
+
+.close:focus, .butBaskLike button, .descrFill button {
+  outline: 0 !important;
+}
+
+.butBaskLike img {
+  width: 23px;
+  height: 23px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.descrFill {
+  margin-top: 20px;
+}
+
+.descrFill button, .descrOrFill p, .form-order {
+  padding: 0;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17px;
+  color: #2C2C2C;
+}
+
+.descrFill button:not(:last-child) {
+  color: #D11F1F;
+  text-decoration: underline;
+}
+
+.descrFill button:last-child {
+  margin-left: 30px;
+}
+
+.descrOrFill {
+  margin-top: 15px;
+}
+
+.form-check {
+  margin-bottom: 10px;
+}
+
+.form-checkForm {
+  padding-left: 0 !important;
+}
+
+.form-checkFill {
+  padding-left: 1rem !important;
+  padding-right: 0 !important;
+}
+
+.hiddenId a {
+  border: 0;
+}
+
+/*кастомные checkbox*/
+.inputCastomCheck, .customCheck {
+  position: absolute !important;
+  z-index: -1;
+  opacity: 0;
+}
+
+.inputCastomCheck + label, .customCheck + label {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+  cursor: pointer;
+}
+
+.inputCastomCheck + label::before, .customCheck + label::before {
+  margin-right: 10px;
+  content: "";
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  flex-shrink: 0;
+  flex-grow: 0;
+  border: 1px dashed #2C2C2C;
+  border-radius: 1em;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+}
+
+.inputCastomCheck + label:hover::before, .customCheck + label:hover::before {
+  border: 1px dashed #D11F1F;
+}
+
+.inputCastomCheck:checked + label::before, .customCheck:checked + label::before {
+  border-color: #fff;
+  border-width: 3.5px;
+  border-style: solid;
+  outline: solid 1px #d11f1f;
+  background-color: #D11F1F;
+}
+
+/*---------------------*/
+/*----- ПОЛЗУНОК -----*/
+.slidecontainer {
+  width: 50%;
+}
+
+.slidecontainer div:not(:last-child) {
+  margin-right: 5px;
+}
+
+.slidecontainer div:last-child {
+  margin-left: 5px;
+}
+
+#weightValue, #colValue {
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+  border-bottom: 1px solid #2c2c2c;
+  width: 20px;
+  text-align: center;
+}
+
+#weightValue:focus, #colValue:focus {
+  outline: 0 !important;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+  -webkit-appearance: textfield;
+  appearance: textfield;
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  display: none;
+}
+
+/* The slider itself */
+.slider {
+  -webkit-appearance: none;
+  /* Override default CSS styles */
+  appearance: none;
+  width: 100%;
+  /* Full-width */
+  height: 3px;
+  /* Specified height */
+  border-radius: 5px;
+  background: #d3d3d3;
+  /* Grey background */
+  outline: none;
+  /* Remove outline */
+  opacity: 0.7;
+  /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: 0.2s;
+  /* 0.2 seconds transition on hover */
+  transition: opacity 0.2s;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+  opacity: 1;
+  /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  /* Override default look */
+  appearance: none;
+  width: 10px;
+  /* Set a specific slider handle width */
+  height: 10px;
+  /* Slider handle height */
+  border-radius: 50%;
+  background: #D11F1F;
+  /* Green background */
+  cursor: pointer;
+  /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+  width: 10px;
+  /* Set a specific slider handle width */
+  height: 10px;
+  /* Slider handle height */
+  border-radius: 50%;
+  background: #D11F1F;
+  /* Green background */
+  cursor: pointer;
+  /* Cursor on hover */
+}
+
+/*----- -------- -----*/
+/*----- SLIDER -----*/
+.slick-slider {
+  margin-top: 0px;
+}
+
+.slick-slider .slide p {
+  text-align: center;
+  color: #2C2C2C;
+}
+
+.slick-slider .slide p:first-child {
+  font-style: normal;
+  font-weight: 300;
+  margin-bottom: 10;
+}
+
+.slick-slider .slide p:last-child {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17px;
+  margin-bottom: 0;
+}
+
+.slick-slider .slide img {
+  border-radius: 50px;
+  width: 58px;
+  height: 58px;
+  cursor: pointer;
+}
+
+.slide {
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slick-slider .slick-track {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.slick-slider .slick-center img {
+  border-radius: 50px;
+  width: 90px;
+  height: 90px;
+}
+
+.slick-for .slide img {
+  border-radius: 50px;
+  width: 58px;
+  height: 58px;
+}
+
+.slider-hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 0px;
+  cursor: pointer;
+  text-align: center;
+  line-height: 20;
+  font-family: "Oswald", sans-serif;
+  font-size: 18px;
+  color: #FFFFFF;
+  background: rgba(0, 0, 0, 0.48);
+  display: none;
+  border-radius: 4px;
+}
+
+.slick-slider .slide:hover .slider-hover {
+  display: block;
+}
+
+/*--------- --------- --------*/
+.but {
+  justify-content: flex-end;
+  align-items: center;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  /* identical to box height */
+  color: #2C2C2C;
+}
+
+.butOrder {
+  height: 40px;
+  width: 125px;
+  background-color: #D11F1F;
+  border: 0;
+  cursor: pointer;
+  color: #fff;
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  border-radius: 9px;
+}
+
+.butOrder:hover {
+  box-shadow: 1px 1px 6px rgba(209, 31, 31, 0.63);
+}
+
+#inLikeModal .modal-body p, #inBasketModal .modal-body p {
+  font-weight: 400;
+  text-align: center;
+  color: #2C2C2C;
+}
+
+.ordNoUseInfo {
+  font-weight: 400;
+  text-align: center;
+  color: #2C2C2C;
+}
+
+.ourOrd {
+  font-style: normal;
+  font-weight: 300;
+  line-height: 36px;
+  text-align: center;
+  color: #2C2C2C;
+}
+
+#inBasketModal .modal-header, #inLikeModal .modal-header, #orderModal .modal-header, #inBasketModal .modal-body, #inLikeModal .modal-body, #orderModal .modal-body {
+  padding-bottom: 0 !important;
+}
+
+.deskrOrd {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.deskrOrd p {
+  margin-bottom: 10px;
+}
+
+.namePr {
+  font-style: normal;
+  line-height: 27px;
+  color: #2C2C2C;
+}
+
+.deskrOrd p:not(:first-child) {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17px;
+  color: #2C2C2C !important;
+}
+
+#orderModal .modal-body {
+  padding-top: 0px;
+}
+
+#orderModal .modal-footer {
+  justify-content: center;
+  padding-top: 0;
+}
+
+#orderModal .modal-body img {
+  width: 100%;
+  height: 187px;
+  border-radius: 4px;
+}
+
+.ordUser {
+  display: flex;
+  flex-direction: column;
+}
+
+.ordUser p:first-child {
+  font-weight: 300;
+  text-align: center;
+  color: #2C2C2C;
+  margin-bottom: 10px;
+}
+
+.ordUser p {
+  color: #2C2C2C;
+}
+
+.ordUser .inp {
+  height: 35px !important;
+  width: 100%;
+  margin-bottom: 13px;
+  color: #2C2C2C;
+}
+
+.ordUser {
+  color: #2C2C2C;
+}
+
+.money {
+  margin-right: auto;
+}
+
+/*------- @MEDIA ---------*/
+/*@media (min-width: 576px) {
+    #nextOrderModal .modal-dialog{
+        min-width: 430px;
+    }
+}*/
+@media (min-width: 768px) {
+  #orderModal .modal-dialog {
+    max-width: 700px;
+  }
+}
+@media (max-width: 576px) {
+  #orderModal .modal-dialog {
+    max-width: 500px;
+  }
+
+  .imgEnd {
+    justify-content: center;
+  }
+
+  .imgEnd img {
+    height: 300px;
+    width: 250px;
+  }
+
+  .slidecontainer {
+    width: 50%;
+  }
+
+  .but div {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  /*.imgModalNextOrd{
+      display: flex;
+      justify-content: center;
+  }
+  #nextOrderModal .modal-body img{
+      width: 160px;
+  }*/
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .slidecontainer {
+    width: 70%;
+  }
+
+  .imgEnd img {
+    height: 312px;
+  }
+
+  .but div {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .slick-slider .slick-center img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .slick-dots {
+    bottom: -50px !important;
+  }
+}
+@media (max-width: 992px) {
+  .but div {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+/*# sourceMappingURL=pageProduct.scss.map */
+
+/*# sourceMappingURL=pageProduct.css.map */

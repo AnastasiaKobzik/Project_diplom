@@ -1,0 +1,68 @@
+.headingPage {
+  font-family: "Oswald", sans-serif;
+  font-size: 24px;
+  line-height: 36px;
+  color: #2C2C2C;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+.bonuses {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /*align-items: center;*/
+}
+
+.howBonuses {
+  font-family: "Oswald", sans-serif;
+  font-size: 24px;
+  line-height: 36px;
+  color: #2C2C2C;
+  text-align: center;
+}
+
+.el1 {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.number {
+  background-image: url(../img/ellipse2.svg);
+  background-repeat: no-repeat;
+  width: 250px;
+  height: 250px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 175px;
+  color: #FFFFFF;
+}
+
+.tbonus {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 175px;
+  color: #2C2C2C;
+}
+
+@media (max-width: 400px) {
+  .number {
+    font-weight: 500;
+    font-size: 54px;
+    line-height: 135px;
+  }
+
+  .tbonus {
+    font-size: 32px;
+    line-height: 135px;
+  }
+}
+
+/*# sourceMappingURL=styleBonuses.scss.map */

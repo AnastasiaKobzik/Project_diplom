@@ -1,0 +1,132 @@
+.filling {
+  display: block;
+}
+
+.advantages {
+  border-radius: 50%;
+  position: relative;
+  width: 35em;
+  height: 35em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.displColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nameFill {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 53px;
+}
+
+.descrFill {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.advantages p {
+  width: 60%;
+  text-align: center;
+  color: #fff;
+}
+
+.backgrBlack {
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  width: 25em;
+  height: 25em;
+  z-index: -1;
+}
+
+.advantages img {
+  border-radius: 50%;
+  position: absolute;
+  width: 25em;
+  height: 25em;
+  z-index: -2;
+}
+
+.advantages-circle {
+  position: relative;
+  width: 35em;
+  height: 35em;
+  padding: 0;
+  border-radius: 50%;
+  list-style: none;
+  box-sizing: content-box;
+  margin: 5em auto 0;
+  border: 2px solid #2c2c2c;
+}
+
+.advantages-circle__element img {
+  width: 6em;
+  height: 6em;
+  border-radius: 50%;
+}
+
+.advantages-circle > .advantages-circle__element {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 6em;
+  height: 6em;
+  margin: -3em;
+  cursor: pointer;
+}
+
+.advantages-circle__element img:hover {
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.15);
+}
+
+/*.advantages-circle > :nth-of-type(1) {
+  transform: rotate(0deg) translate(15em) rotate(0deg);
+}
+.advantages-circle > :nth-of-type(2) {
+  transform: rotate(40deg) translate(15em) rotate(-40deg);
+}
+.advantages-circle > :nth-of-type(3) {
+  transform: rotate(80deg) translate(15em) rotate(-80deg);
+}
+.advantages-circle > :nth-of-type(4) {
+  transform: rotate(120deg) translate(15em) rotate(-120deg);
+}
+.advantages-circle > :nth-of-type(5) {
+  transform: rotate(160deg) translate(15em) rotate(-160deg);
+}
+.advantages-circle > :nth-of-type(6) {
+  transform: rotate(200deg) translate(15em) rotate(-200deg);
+}
+.advantages-circle > :nth-of-type(7) {
+  transform: rotate(240deg) translate(15em) rotate(-240deg);
+}
+.advantages-circle > :nth-of-type(8) {
+  transform: rotate(280deg) translate(15em) rotate(-280deg);
+}
+.advantages-circle > :nth-of-type(9) {
+  transform: rotate(320deg) translate(15em) rotate(-320deg);
+}
+.advantages-circle__element img {
+  display: block;
+  width: 100%;
+}*/
+/*# sourceMappingURL=jjj.css.map */
+@media (max-width: 720px) {
+  .filling {
+    display: none;
+  }
+}
+/*# sourceMappingURL=styleFillHome.scss.map */
+
+/*# sourceMappingURL=styleFillHome.css.map */

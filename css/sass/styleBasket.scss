@@ -1,0 +1,643 @@
+@charset "UTF-8";
+.displRowEnd {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.namePageAndClear {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+
+.headingBasket {
+  font-family: "Oswald", sans-serif;
+  font-size: 24px;
+  line-height: 36px;
+  color: #2C2C2C;
+  margin-bottom: 0px;
+}
+
+.txtAndImg {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.checkAll {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.txtAndImg img {
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+.txtAndImg img, .clear {
+  cursor: pointer;
+}
+
+/*кастомные checkbox*/
+.chooseAll {
+  position: absolute !important;
+  z-index: -1;
+  opacity: 0;
+}
+
+.chooseAll + label {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+  cursor: pointer;
+}
+
+.chooseAll + label::after {
+  margin-left: 10px;
+  content: "";
+  display: inline-block;
+  width: 1.2em;
+  height: 1.2em;
+  flex-shrink: 0;
+  flex-grow: 0;
+  border: 1px dashed #2C2C2C;
+  border-radius: 1em;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+}
+
+.chooseAll:checked + label::after {
+  border-color: #D11F1F;
+  background-color: #D11F1F;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
+}
+
+/*кастомные checkbox*/
+.form .form-check {
+  padding-left: 0;
+}
+
+.form {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.fillingBord .col-6 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.radioDecor, .radioFill, .radioForm {
+  position: absolute !important;
+  z-index: -1;
+  opacity: 0;
+}
+
+.radioDecor + label, .radioFill + label, .radioForm + label {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+  cursor: pointer;
+}
+
+.radioDecor + label::before, .radioFill + label::before, .radioForm + label::before {
+  margin-right: 10px;
+  content: "";
+  display: inline-block;
+  width: 0.8em;
+  height: 0.8em;
+  flex-shrink: 0;
+  flex-grow: 0;
+  border: 1px dashed #2C2C2C;
+  border-radius: 1em;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+}
+
+.radioDecor + label:hover::before, .radioFill + label:hover::before, .radioForm + label:hover::before {
+  border: 1px dashed #D11F1F;
+}
+
+.radioDecor:checked + label::before, .radioFill:checked + label::before, .radioForm:checked + label::before {
+  border-color: #fff;
+  border-width: 3.5px;
+  border-style: solid;
+  outline: solid 1px #d11f1f;
+  background-color: #D11F1F;
+}
+
+/*---------------------*/
+.txtAndImg p, .checkAll label {
+  margin-bottom: 0;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #2C2C2C;
+}
+
+.basketNull a {
+  font-weight: 600;
+  line-height: 22px;
+  color: #2C2C2C;
+  text-decoration: underline;
+}
+
+.basketNull a:hover {
+  color: #D11F1F;
+}
+
+.basketNull {
+  height: 50vh;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #2C2C2C;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* background: url('../img/1.svg') no-repeat center;*/
+}
+
+.nameSelAndDelete2 {
+  display: none;
+  flex-direction: row;
+}
+
+.nameSelAndDelete {
+  display: flex;
+  flex-direction: row;
+}
+
+.select-prod, .nameSelAndDelete, .nameSelAndDelete2 {
+  align-items: center;
+}
+
+.nameSelAndDelete, .nameSelAndDelete2 {
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.descrProduct {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.nameSelAndDelete p:first-child, .selectBottom p, .nameSelAndDelete2 p:first-child {
+  margin-bottom: 0;
+}
+
+.nameSelAndDelete button, .nameSelAndDelete2 button {
+  background: transparent;
+  border: 0;
+}
+
+.product {
+  margin-left: 30px;
+}
+
+.photoProd {
+  /*width: 238px;
+  height: 238px;*/
+  width: 100%;
+  height: 228px;
+  border-radius: 4px;
+}
+
+.selectBottom {
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.selectBottom button {
+  /*margin-left: 20px;*/
+  cursor: pointer;
+  width: 115px;
+  height: 40px;
+  border-radius: 9px;
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.closeImg {
+  width: 17px;
+  height: 17px;
+  cursor: pointer;
+}
+
+.nameSelAndDelete p:first-child, .nameSelAndDelete2 p:first-child {
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 27px;
+  color: #2C2C2C;
+}
+
+.descrProduct p {
+  /*font-family: 'Montserrat',sans-serif;*/
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 17px;
+  color: #2C2C2C;
+}
+
+.position {
+  position: relative;
+}
+
+.position .order {
+  position: absolute;
+  top: 0px;
+  left: 20px;
+  right: 0;
+  bottom: 0;
+  cursor: pointer;
+  border-radius: 9px;
+}
+
+.txt {
+  margin-left: 20px;
+  width: 115px;
+  height: 40px;
+  border-radius: 9px;
+  padding-top: 5px;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #fff;
+  border: 1px solid #D11F1F;
+  background: #D11F1F;
+  display: inline-block;
+  box-shadow: 1px 1px 6px transparent;
+}
+
+.order:hover {
+  box-shadow: 1px 1px 6px rgba(209, 31, 31, 0.63);
+}
+
+.position input {
+  background: transparent;
+  border: 0;
+  font-size: 0;
+}
+
+.butSelect {
+  justify-content: end;
+}
+
+.butSelect button:first-child, .butChange button:first-child {
+  border: 1px solid #D11F1F;
+  color: #D11F1F;
+  background: #fff;
+  display: inline-block;
+}
+
+.butChange button:last-child {
+  border: 1px solid #D11F1F;
+  color: #fff;
+  background: #D11F1F;
+  display: inline-block;
+}
+
+.butSelect button:first-child:hover {
+  box-shadow: 1px 1px 6px rgba(209, 31, 31, 0.33);
+}
+
+.butSelect button:first-child:focus {
+  outline: 0px;
+}
+
+/*--- ИЗМЕННЕНИЕ ТОВАРА В КОРЗИНЕ----*/
+#changeFromBasket img {
+  height: 250px;
+  border-radius: 4px;
+}
+
+.nameAndCheckColumn, .filling, .form, .summa {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #2C2C2C;
+}
+
+.imgAndName {
+  display: flex;
+  flex-direction: row;
+}
+
+.nameProd2 {
+  display: none;
+}
+
+.nameProd {
+  display: block;
+}
+
+.nameProd, .nameProd2 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 19px;
+  color: #2C2C2C;
+  margin-bottom: 0;
+}
+
+.summa {
+  align-items: end;
+  justify-content: end;
+}
+
+.summa p {
+  font-weight: 600;
+  margin: 0;
+}
+
+.decorP, .form p, .filling p {
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.form p {
+  padding-left: 0 !important;
+}
+
+.priceAndColColumn p {
+  font-weight: 500;
+  margin-bottom: 7px;
+}
+
+#changeFromBasket .modal-header, #changeFromBasket .modal-body {
+  padding-bottom: 0 !important;
+}
+
+/*----- ПОЛЗУНОК -----*/
+.slidecontainer {
+  width: 100%;
+  /* Width of the outside container */
+}
+
+/*.weightSlider{
+    margin-right: 40px;
+}*/
+.slidecontainer div:not(:last-child) {
+  margin-right: 5px;
+}
+
+.slidecontainer div:last-child {
+  margin-left: 5px;
+}
+
+#weightValue, #colValue {
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+  border-bottom: 1px solid #2c2c2c;
+  width: 20px;
+  text-align: center;
+}
+
+#weightValue:focus, #colValue:focus {
+  outline: 0 !important;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+  -webkit-appearance: textfield;
+  appearance: textfield;
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  display: none;
+}
+
+/* The slider itself */
+.slider {
+  -webkit-appearance: none;
+  /* Override default CSS styles */
+  appearance: none;
+  width: 100%;
+  /* Full-width */
+  height: 3px;
+  /* Specified height */
+  border-radius: 5px;
+  background: #d3d3d3;
+  /* Grey background */
+  outline: none;
+  /* Remove outline */
+  opacity: 0.7;
+  /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: 0.2s;
+  /* 0.2 seconds transition on hover */
+  transition: opacity 0.2s;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+  opacity: 1;
+  /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  /* Override default look */
+  appearance: none;
+  width: 10px;
+  /* Set a specific slider handle width */
+  height: 10px;
+  /* Slider handle height */
+  border-radius: 50%;
+  background: #D11F1F;
+  /* Green background */
+  cursor: pointer;
+  /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+  width: 10px;
+  /* Set a specific slider handle width */
+  height: 10px;
+  /* Slider handle height */
+  border-radius: 50%;
+  background: #D11F1F;
+  /* Green background */
+  cursor: pointer;
+  /* Cursor on hover */
+}
+
+/* --------------------------- */
+.butSelectOrder {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.selectOrder {
+  /*display: none;*/
+  border: 1px solid #D11F1F;
+  color: #fff;
+  background: #D11F1F;
+  cursor: pointer;
+  width: 115px;
+  height: 40px;
+  border-radius: 9px;
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.butSelectCheck {
+  display: none;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0px;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: #fff;
+  z-index: 1;
+}
+
+/*КАСТОМНЫЙ CHECKBOX*/
+.custom-checkbox {
+  position: absolute !important;
+  z-index: -1;
+  opacity: 0;
+}
+
+.custom-checkbox + label {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+  cursor: pointer;
+}
+
+.custom-checkbox + label::before {
+  content: "";
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  flex-shrink: 0;
+  flex-grow: 0;
+  border: 1px dashed #2C2C2C;
+  border-radius: 1em;
+  margin-right: 0.5em;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+}
+
+.custom-checkbox:checked + label::before {
+  border-color: #D11F1F;
+  background-color: #D11F1F;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
+}
+
+/*------------------*/
+/*------- @MEDIA ---------*/
+@media (min-width: 576px) {
+  #changeFromBasket .modal-dialog {
+    max-width: 530px;
+  }
+
+  #changeFromBasket img {
+    height: 200px;
+    border-radius: 4px;
+  }
+
+  .fillingBord {
+    border-right: 0px;
+  }
+
+  #changeFromBasket img {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  #changeFromBasket .modal-dialog {
+    max-width: 700px;
+  }
+
+  .fillingBord {
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+  }
+}
+@media (max-width: 992px) {
+  .txt {
+    margin-left: 10px;
+  }
+}
+@media (max-width: 576px) {
+  .photoProd {
+    width: 238px;
+  }
+
+  .photo {
+    display: flex;
+    justify-content: center;
+  }
+
+  .select-prod {
+    margin-left: 0 !important;
+    align-items: flex-start;
+    margin-right: 0 !important;
+  }
+
+  .nameSelAndDelete2 {
+    display: flex;
+  }
+
+  .nameSelAndDelete {
+    display: none;
+  }
+
+  .nameProd2 {
+    display: block;
+  }
+
+  .nameProd {
+    display: none;
+  }
+
+  #changeFromBasket img {
+    height: 250px;
+    width: 220px;
+  }
+
+  .photoImgChange {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/*# sourceMappingURL=styleBasket.scss.map */

@@ -1,0 +1,243 @@
+@charset "UTF-8";
+.headingSearch, .dispRowCategory {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.headingPage {
+  font-family: "Oswald", sans-serif;
+  font-size: 24px;
+  line-height: 36px;
+  color: #2C2C2C;
+}
+
+/*КНОПКА ПОИСКА*/
+.search {
+  color: #D11F1F !important;
+  border-color: #D11F1F !important;
+}
+
+.search:hover {
+  color: #fff !important;
+  background: #D11F1F !important;
+}
+
+.search:focus {
+  box-shadow: 0 0 0 0.2rem rgb(209 31 31/30%) !important;
+}
+
+/*--------------*/
+#modalOk .modal-header {
+  padding-bottom: 0;
+}
+
+.categories {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.all, .my, .unaccepted, .completed {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 0;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+.all, .my, .unaccepted {
+  margin-right: 40px;
+}
+
+.my, .unaccepted, .completed {
+  color: #2C2C2C;
+}
+
+.categories button:hover {
+  color: #D11F1F;
+  text-decoration: underline;
+}
+
+.all {
+  text-decoration: underline;
+  color: #D11F1F;
+}
+
+.dispRowCategory {
+  align-items: center;
+}
+
+table thead th {
+  vertical-align: top !important;
+}
+
+table td, table th {
+  vertical-align: middle !important;
+}
+
+td {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  color: #2C2C2C;
+  font-weight: 400;
+}
+
+th {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+table {
+  text-align: center;
+}
+
+.hoverMore {
+  position: relative;
+}
+
+.moreOrdUser, .moreOrdNoUser {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 95px;
+  bottom: 0;
+}
+
+.table-hover tbody tr:hover {
+  /*background-color: rgba(0,0,0,.6)!important;*/
+  cursor: pointer;
+}
+
+.table-hover tbody tr:hover .moreOrdUser {
+  display: block;
+}
+
+.table-hover tbody tr:hover .moreOrdNoUser {
+  display: block;
+}
+
+/*-----таблица----*/
+.displAlign {
+  align-items: center;
+}
+
+.numberOrder {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+  color: #000000;
+}
+
+.paddinNo {
+  padding: 0 !important;
+}
+
+.nameTd {
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: #D11F1F;
+}
+
+.nameTr {
+  text-align: center;
+}
+
+.displFlex {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nameTd, .nameTr {
+  padding: 10px;
+}
+
+.nameTr {
+  border: 1px solid #2C2C2C;
+  color: #2C2C2C;
+}
+
+.bordRed {
+  border: 1px solid #D11F1F;
+}
+
+.bordGreen {
+  border: 1px solid #008B0E;
+}
+
+.bordOrang {
+  border: 1px solid #F92D00;
+}
+
+.butRed, .butRed1, .butDisabled, .butАccepted, .butPaid, .butАccepted1, .butPaid1 {
+  font-weight: 400;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  color: #fff;
+  font-family: "Oswald", sans-serif;
+}
+
+.butDisabled {
+  background: #E86767;
+}
+
+.butRed, .butRed1, .butАccepted, .butPaid, .butАccepted1, .butPaid1 {
+  background: #D11F1F;
+  cursor: pointer;
+}
+
+.more, .more1 {
+  background: transparent;
+  cursor: pointer;
+  border: 0;
+  color: #3E51FC;
+}
+
+.more:hover, .more1:hover {
+  text-decoration: underline;
+}
+
+.comeBack {
+  background: transparent;
+  border: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: 0 !important;
+}
+
+.btn-dark:hover {
+  box-shadow: 1px 1px 6px rgb(209 31 31/0%) !important;
+}
+
+/*------------*/
+@media (min-width: 576px) and (max-width: 768px) {
+  .all, .my, .unaccepted {
+    margin-right: 20px;
+  }
+}
+@media (max-width: 576px) {
+  .all, .my, .unaccepted {
+    margin-right: 5px;
+  }
+}
+
+/*# sourceMappingURL=styleIndexCourier.scss.map */
