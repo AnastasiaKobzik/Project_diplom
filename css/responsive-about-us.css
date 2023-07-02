@@ -1,0 +1,208 @@
+@media only screen and (max-width : 2000px) {
+
+    /* bg-main-top */
+    .bg-main-top::after {
+        left: -12%;
+    }
+
+    /* end-bg-main-top */
+}
+
+@media only screen and (max-width : 1900px) {
+
+    /* bg-main-top */
+    .bg-main-top::after {
+        left: -15%;
+    }
+
+    /* end-bg-main-top */
+}
+
+@media only screen and (max-width : 1800px) {
+
+    /* bg-main-top */
+    .bg-main-top::after {
+        left: -18%;
+    }
+    /* end-bg-main-top */
+}
+@media only screen and (max-width : 1700px) {
+
+    /* bg-main-top */
+    .bg-main-top::after {
+        left: -23%;
+    }
+
+    /* end-bg-main-top */
+}
+
+@media only screen and (max-width : 1600px) {
+
+    /* bg-main-top */
+    .bg-main-top::after {
+        left: -27%;
+    }
+
+    /* end-bg-main-top */
+}
+
+@media only screen and (max-width : 1500px) {
+
+    /* bg-main-top */
+    .bg-main-top::after {
+        left: -32%;
+    }
+    /* end-bg-main-top */
+
+}
+@media only screen and (max-width : 1400px){
+    .bg-white-block .container-lg,
+    .bg-white-information .container-lg,
+    .bg-white-block-two .container-lg,
+    .bg-white-questions .container-lg,
+    .bg-white-social-media .container-lg{
+        width: 75%;
+    }
+}
+@media only screen and (max-width : 1300px) {
+
+    /* bg-main-top */
+    .bg-main-top::after {
+        left: -39%;
+    }
+
+    .bg-white-block .container-lg,
+    .bg-white-information .container-lg,
+    .bg-white-block-two .container-lg,
+    .bg-white-questions .container-lg,
+    .bg-white-social-media .container-lg{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width : 1200px) {
+
+    /* bg-main-top */
+    .bg-main-top .main-text-but .main-text {
+        font-size: 50px;
+        line-height: 58px;
+    }
+
+    /* end-bg-main-top */
+    .bg-white-block .container-lg,
+    .bg-white-information .container-lg,
+    .bg-white-block-two .container-lg,
+    .bg-white-questions .container-lg,
+    .bg-white-social-media .container-lg{
+        width: 90%;
+    }
+    .bg-main-top::before{
+        display: none;
+    }
+    .bg-main-top::after {
+        left: 0%;
+        width: 350%;
+        height: 350%;
+        top: -50%;
+    }
+}
+
+@media only screen and (max-width : 1100px) {
+
+    /* bg-main-top */
+    .bg-main-top::after {
+        left: -17%;
+    }
+    /* end-bg-main-top */
+    .bg-white-block .container-lg,
+    .bg-white-information .container-lg,
+    .bg-white-block-two .container-lg,
+    .bg-white-questions .container-lg,
+    .bg-white-social-media .container-lg{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width : 1000px) {
+
+}
+
+@media only screen and (max-width : 992px) {
+
+    /* bg-main-top */
+    
+
+    .bg-main-top .container-lg {
+        padding: 0 24px;
+    }
+
+    .bg-main-top .main-text-but .main-text {
+        font-size: 38px;
+        line-height: 46px;
+    }
+    
+    /* end-bg-main-top */
+    .bg-white-block .main-text,
+    .bg-white-information .title,
+    .bg-white-contact .title,
+    .bg-white-questions .title,
+    .bg-white-social-media .title{
+        font-size: 36px;
+        line-height: 44px;
+    }
+    .bg-white-information .paragraph{
+        margin-bottom: 30px;
+    }
+    .bg-white-information{
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width : 768px) {
+
+    /* bg-main-top */
+    .bg-main-top::after {
+        width: 400%;
+        height: 400%;
+    }
+
+    /* end-bg-main-top */
+    .bg-white-block .main-text,
+    .bg-white-information .title,
+    .bg-white-contact .title,
+    .bg-white-block-two .title,
+    .bg-white-questions .title,
+    .bg-white-social-media .title{
+        font-size: 32px;
+        line-height: 40px;
+        margin-bottom: 30px;
+    }
+    .bg-white-information .subparagraph{
+        margin-bottom: 5px;
+    }
+    .bg-white-information .paragraph{
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width : 576px) {
+
+    /* bg-main-top */
+    
+    .bg-main-top .container-lg {
+        padding: 0 20px;
+    }
+
+    .bg-main-top .main-text-but .main-text {
+        font-size: 32px;
+        line-height: 36px;
+        margin-bottom: 24px;
+    }
+    .bg-main-top .main-text-but .sub-text{
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    /* end-bg-main-top */
+}

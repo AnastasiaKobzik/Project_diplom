@@ -1,0 +1,35 @@
+@font-face {
+    font-weight: 300;
+    font-family: tilda-sans;
+    src: url("../fonts/tilda-sans_light.ttf");
+}
+@font-face {
+    font-weight: 400;
+    font-family: tilda-sans;
+    src: url("../fonts/tilda-sans_regular.ttf");
+}
+@font-face {
+    font-weight: 500;
+    font-family: tilda-sans;
+    src: url("../fonts/tilda-sans_medium.ttf");
+}
+@font-face {
+    font-weight: 600;
+    font-family: tilda-sans;
+    src: url("../fonts/tilda-sans_semibold.ttf");
+}
+@font-face {
+    font-weight: 700;
+    font-family: tilda-sans;
+    src: url("../fonts/tilda-sans_bold.ttf");
+}
+@font-face {
+    font-weight: 800;
+    font-family: tilda-sans;
+    src: url("../fonts/tilda-sans_extra-bold-.ttf");
+}
+@font-face {
+    font-weight: 900;
+    font-family: tilda-sans;
+    src: url("../fonts/tilda-sans_black.ttf");
+}

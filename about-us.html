@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caroutlet.by - Помощь в покупке автомобиля. Аукцион авто из Европы</title>
+
+    <!-- BOOTSTRAP CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <!-- slick -->
+    <link rel="stylesheet" type="text/css" href="/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="/slick/slick-theme.css" />
+    
+    <!-- FONTS  -->
+    <link rel="stylesheet" href="./css/fonts.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/responsive-main.css">
+
+    <link rel="stylesheet" href="./css/about-us.css">
+    <link rel="stylesheet" href="./css/responsive-about-us.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light  fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html"><img src="./image/logo.svg" alt="logo" width="138"
+                        height="24"></a>
+                <div class="number collapse show"> <a href="tel:+375447008477">+375 44 700 84 77</a></div>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="./information.html">Информация</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./about-us.html">О нас</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Контакты</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item registration">
+                            <a class="nav-link" aria-current="page" href="https://www.caroutlet.eu/account/register/first"
+                                target="_blank">Регистрация</a>
+                        </li>
+                        <li class="nav-item select-car">
+                            <a class="nav-link" aria-current="page" href="https://www.caroutlet.eu/request"
+                                target="_blank">Подбор авто
+                                <span style="margin-left: 6px;">↗</span></a>
+                        </li>
+                    </ul>
+                    <li class="nav-item dropdown in-mobile d-flex">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            +375 29 700 84 77
+                            <img src="./image/tel/a1.png" alt="a1" class="tel-img">
+                            <img src="./image/tel/mts.png" alt="mts" class="tel-img">
+                            <img src="./image/tel/life.png" alt="life" class="tel-img">
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="tel:+375447008477"><img src="./image/tel/a1.png" alt="a1"
+                                        class="tel-img">
+                                    +375 44 700 84 77</a></li>
+                            <li><a class="dropdown-item" href="tel:+375297008477"><img src="./image/tel/mts.png" alt="mts"
+                                        class="tel-img">+375 29 700 84 77</a></li>
+                            <li><a class="dropdown-item" href="tel:+375257008477"><img src="./image/tel/life.png" alt="life"
+                                        class="tel-img">+375 25 700 84 77</a></li>
+                        </ul>
+                    </li>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                    aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <a class="navbar-brand" href="./index.html"><img src="./image/logo.svg" alt="logo" width="138"
+                                height="24"></a>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                            aria-label="Close"><span class="toogle-item-close"></span></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <div>
+                            <ul class="navbar-nav justify-content-end">
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="./information.html">Информация</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="./about-us.html">О нас</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="#">Контакты</a>
+                                </li>
+                            </ul>
+                            <ul class="navbar-nav ms-auto buts">
+                                <li class="nav-item registration">
+                                    <a class="nav-link" aria-current="page"
+                                        href="https://www.caroutlet.eu/account/register/first"
+                                        target="_blank">Регистрация</a>
+                                </li>
+                                <li class="nav-item select-car">
+                                    <a class="nav-link" aria-current="page" href="https://www.caroutlet.eu/request"
+                                        target="_blank">Подбор авто
+                                        <span style="margin-left: 6px;">↗</span></a>
+                                </li>
+                            </ul>
+                        </div>
+    
+                        <ul class="navbar-nav phones">
+                            <li class="nav-item">
+                                <a class="nav-link" href="tel:+375447008477"><img src="./image/tel/a1.png" alt="a1"
+                                        class="tel-img">+375 44 700 84 77</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="tel:+375297008477"><img src="./image/tel/mts.png" alt="mts"
+                                        class="tel-img">+375 29 700 84 77</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="tel:+375257008477"><img src="./image/tel/life.png" alt="life"
+                                        class="tel-img">+375 25 700 84 77</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="chats dropstart">
+            <button class="chat-button " data-bs-toggle="dropdown" aria-expanded="false">
+                <div class="ellipse-light-blue">
+                    <div class="ellipse-blue">
+                        <img src="./image/icon/chat.svg" alt="chat">
+                    </div>
+                </div>
+            </button>
+            <div class='messengers-chat dropdown-menu '>
+                <a href='#'><img src='./image/png/whatsapp.png' alt='whatsapp'></a>
+                <a href='#'><img src='./image/png/viber-circle.png' alt='viber'></a>
+                <a href='#'><img src='./image/png/telegram.png' alt='telegram'></a>
+            </div>
+        </div>
+
+
+        <div class="bg-main-top">
+            <div class="container-lg">
+                <div class="row main-text-but">
+                    <div class="col-xl-6 col-md-9 col-sm-11">
+                        <p class="main-text">CarOutlet — автомобильный аукцион</p>
+                        <p class="sub-text">CarOutlet является одной из ведущих онлайн-платформ в Европе для всех участников рынка подержанных легковых автомобилей и фургонов.</p>
+                        <button class="main-but">Бесплатная консультация</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-white-block">
+            <div class="container-lg">
+                <p class="main-text">Мы разработали удобный онлайн-аукцион для того, чтобы вы могли в любое время из любого места
+                    максимально удобно и выгодно покупать качественные автомобили напрямую у лизинговых компаний и дилеров.</p>
+                <p class="sub-text">Наша цель — сделать процесс продажи простым, безопасным и надежным для покупателей и продавцов.
+                    Максимально снизив риски для обеих сторон, мы гарантируем качество и надежность каждого продаваемого на аукционе
+                    автомобиля.
+                    <br><br>
+                    CarOutlet участвует в каждом этапе аукциона, от помощи с выбором автомобиля до доставки транспортного средства
+                    покупателю. Более чем 10-летний опыт продаж подержанных авто позволил нам стать надежным посредником между
+                    покупателем и продавцом.
+                </p>
+                <div class="">
+                    <a href="https://www.caroutlet.eu/account/register/first" target="_blank" class="button">Регистрация</a>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="bg-white-information">
+            <div class="container-lg">
+                <h2 class="title">Автомобили в отличном техническом состоянии</h2>
+                
+                <p class="subparagraph">● С достоверным пробегом и подлинной сервисной историей</p>
+                <p class="paragraph">в единой электронной сервисной базе, подтверждаемой запросом в любой официальный сервисный центр РБ и мира. За предоставление ложной информации о пробеге уголовная ответственность!</p>              
+
+                <p class="subparagraph">● На момент покупки полностью соответствующий Европейским нормам безопасности</p>
+                <p class="paragraph">и технического состояния, не требующий обслуживания и прошедший линию диагностики по допуску к эксплуатации (кроме битых лотов).</p> 
+
+                <p class="subparagraph">● Весь период эксплуатации обслуживаемый в официальных сервис центрах производителя</p>
+                <p class="paragraph">в которых все технические обслуживания производились строго по регламенту (своевременно), а все заменяемые расходники (жидкости, масла, фильтра, ремни, ролики, колодки, элементы подвески, и т.п.) использовались исключительно Оригинальные от производителя, что обеспечивает высочайшую остаточную ресурсность всех узлов и агрегатов.</p>
+                
+                <p class="subparagraph">● С неукоснительным соблюдением условий по прохождению тех. обслуживаний</p>
+                <p class="paragraph">(исключительно в официальных СЦ), что гарантируется жесточайшими требованиями, прописанными в лизинговом договоре, при малейшем нарушении которого – колоссальные штрафы и 100% отъем автомобиля как предмета залога. Автомобиль, хотя бы единожды не обслуженный в официальном сервисном центре производителя, на аукцион CarOutlet не выставляется.</p>
+                
+                <p class="subparagraph">● Не бывший в ДТП</p>
+                <p class="paragraph">(с потерей геометрии несуших элементов кузова и сработавшими системами безопасности, подушки и т.п.), и не имеющий скрытых дефектов. Автомобили, после ДТП с потерей геометрии несуших элементов кузова, после получения страховых выплат, выставляются как лоты в аварийном состоянии.</p>               
+
+                <p class="subparagraph">● Все автомобили, доставляемые CarOutlet, транспортируются исключительно автовозами</p>
+                <p class="paragraph">и полностью застрахованы на всех этапах доставки от любых повреждений, что позволяет гарантировать вам полное соответствие изначально заявленной дефектологии (зафиксированные на фото потертости, царапинки, сколы и т.п.), с фактическим состоянием автомобиля при получении. В случае несоответствия приобретенного автомобиля описанию на сайте аукциона, CarOutlet гарантирует финансовую компенсацию ущерба вплоть до возврата автомобиля поставщику.</p>
+                
+            </div>
+        </div>
+
+        <div class="bg-white-block-two">
+            <div class="container-lg"> 
+                <div class="col-9">
+                    <p class="title">Уникальная гарантия на отсутствие скрытых дефектов силовой установки и трансмиссии</p>
+                    <p class="sub-title">В случае выявлении скрытых дефектов, не указанных в сервисной истории (принимается к рассмотрению
+                        диагностический акт авторизованных С/Ц ЕЭС и на территории ЕЭС), обеспечивают на ваш выбор: финансовую компенсацию
+                        ущерба, возврат стоимости авто, либо приобретение иного автомобиля.</p>
+                    <div class="">
+                        <a href="https://www.caroutlet.eu/account/register/first" target="_blank" class="button">Регистрация</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-white-questions">
+            <div class="container-lg">
+                <h2 class="title">Часто задаваемые вопросы</h2>
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                aria-expanded="true" aria-controls="collapseOne">
+                                Что такое региональный сбор?
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>Это тело аккордеона первого элемента.</strong> Оно отображается по умолчанию, пока плагин
+                                свертывания не добавит соответствующие классы, которые мы используем для стилизации каждого элемента.
+                                Эти классы управляют общим внешним видом, а также отображением и скрытием с помощью переходов CSS. Вы
+                                можете изменить все это с помощью собственного CSS или переопределить наши переменные по умолчанию.
+                                Также стоит отметить, что практически любой HTML может быть помещен в <code>.accordion-body</code>, хотя
+                                переход ограничивает переполнение.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Как формируется стоимость оформления документов, включая ЕХ?
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>Это тело аккордеона второго элемента.</strong> По умолчанию он скрыт, пока плагин свертывания не
+                                добавит соответствующие классы, которые мы используем для стилизации каждого элемента. Эти классы
+                                управляют общим внешним видом, а также отображением и скрытием с помощью переходов CSS. Вы можете
+                                изменить все это с помощью собственного CSS или переопределить наши переменные по умолчанию. Также стоит
+                                отметить, что практически любой HTML может быть помещен в <code>.accordion-body</code>, хотя переход
+                                ограничивает переполнение.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Какие сроки доставки?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <iframe width="100%" height="447" src="https://www.youtube.com/embed/uEMYCfgHgDA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                Как оформляется депозит?
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>Это тело аккордеона четвертого элемента.</strong> По умолчанию оно скрыто, пока плагин свертывания
+                                не добавит соответствующие классы, которые мы используем для стилизации каждого элемента. Эти классы
+                                управляют общим внешним видом, а также отображением и скрытием с помощью переходов CSS. Вы можете
+                                изменить все это с помощью собственного CSS или переопределить наши переменные по умолчанию. Также стоит
+                                отметить, что практически любой HTML может быть помещен в <code>.accordion-body</code>, хотя переход
+                                ограничивает переполнение.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-white-contact">
+            <div class="container-lg">
+                <h2 class="title">Есть вопросы? Наши специалисты помогут!</h2>
+                <div class="time-work">
+                    <p>В будние: 9.00—13.00 и 14.00—18.00 <br>
+                    Суббота: 10.00—13.00 и 14.00—17.00 <br><br>
+                    С вопросами в мессенджеры обращайтесь в любое время суток — вам ответят в рабочее время. Приятный покупока на CarOutlet!</p>
+                    <button class="button-call"><img src="./image/icon/emoji-tel.svg" alt="emoji-tel"> Заказать звонок</button>
+                </div>
+                <div class="slick block-specialist">
+                    <div class="specialist">
+                        <img src="./image/jpeg/specialist-1.jpg" alt="Специалист">
+                        <p class="name">Михаил</p>
+                    </div>
+                    <div class="specialist">
+                        <img src="./image/jpeg/specialist-2.jpg" alt="Специалист">
+                        <p class="name">Михаил</p>
+                    </div>
+                    <div class="specialist">
+                        <img src="./image/jpeg/specialist-3.jpg" alt="Специалист">
+                        <p class="name">Михаил</p>
+                    </div>
+                    <div class="specialist">
+                        <img src="./image/jpeg/specialist-3.jpg" alt="Специалист">
+                        <p class="name">Михаил</p>
+                    </div>
+                </div>
+        
+                
+            </div>
+        </div>
+
+        <div class="bg-white-social-media">
+            <div class="container-lg">
+                <h2 class="title">Следите за нами в соцсетях</h2>
+                <img src="./image/jpeg/title-social-media.jpg" alt="шапка социальной сети" class="head-img">
+                <img src="./image/jpeg/social-media.jpg" alt="социальная сеть" class="main-img">
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container-lg">
+            <div class="block-info">
+                <div class="logo-copyright">
+                    <img src="./image/logo.svg" alt="logo" class="logo">
+                    <p>© 2013–2023 CarOutlet</p>
+                </div>
+                <div class="information">
+                    <div class="info">
+                        <p class="title">ООО КарАутлет</p>
+                        <p class="text">УНП: 193338211</p>
+                        <p class="text">ОКПО: 503556595000</p>
+                    </div>
+                    <div class="info">
+                        <p class="title">Офис:</p>
+                        <p class="text">Республика Беларусь</p>
+                        <p class="text">220113 г. Минск</p>
+                        <p class="text">ул. Некрасова 114 - 58</p>
+                    </div>
+                    <div class="info">
+                        <p class="title">Контакты:</p>
+                        <a class="text" href="tel:+375447008477">А1 +375 44 700 84 77</a>
+                        <a class="text" href="tel:+375297008477">МТС +375 29 700 84 77</a>
+                        <a class="text" href="tel:+375257008477">life:) +375 25 700 84 77</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- JQUERY -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+
+    <!-- slick -->
+    <script src="/slick/slick.min.js"></script>
+
+    <!-- BOOTSTRAP JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script src="./js/scriptGallery.js"></script>
+</body>
+</html>

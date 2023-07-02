@@ -1,0 +1,825 @@
+/* ---bg-main-top--- */
+
+.bg-main-top {
+    background: linear-gradient(180deg, #477EEC 13.02%, #6196FF 100%);
+    padding-top: 85px;
+    padding-bottom: 85px;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 180px;
+    overflow: hidden;
+}
+
+.bg-main-top::after {
+    content: '';
+    background: url(../image/icon/main-ellipse_white.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    position: absolute;
+    width: 300%;
+    height: 300%;
+    top: -75%;
+    left: -23%;
+    z-index: -2;
+}
+
+.bg-main-top::before {
+    content: '';
+    background: url(../image/jpeg/bg-main-screenshot.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    position: absolute;
+    width: 50%;
+    height: 80%;
+    bottom: 0;
+    right: 2%;
+    z-index: -1;
+    border-radius: 20px 20px 0 0;
+    box-shadow: 0px 4px 84px 0px rgba(0, 0, 0, 0.30);
+}
+
+.bg-main-top .main-text-but .main-text {
+    color: #FFF;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+}
+
+.bg-main-top .main-text-but .sub-text {
+    color: #FFF;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+}
+
+.bg-main-top .main-text-but .main-but {
+    padding: 12px 24px;
+    border-radius: 8px;
+    background: var(--primary-black, #25345B);
+    border: 0;
+
+    color: var(--white, #FFF);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+
+
+/* ---end-bg-main-top--- */
+
+
+/* bg-white-information */
+.bg-white-information #navbar-info{
+    position: sticky;
+    top: 103px;
+    margin-bottom: 60px;
+}
+.bg-white-information #navbar-info .nav{
+    margin-bottom: 10px;
+}
+.bg-white-information #navbar-info .banner{
+    border-radius: 16px;
+    background: #EDF2FD;
+    padding: 30px 20px;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+}
+.bg-white-information #navbar-info .banner p{
+    color: var(--primary-black, #25345B);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    margin-bottom: 24px;
+}
+.bg-white-information #navbar-info .banner::after{
+    content: '';
+    background: url('../image/icon/ellipse-blue.svg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    width:250%;
+    height: 250%;
+    top: -27%;
+    left: -75%;
+    z-index: -1;
+}
+.bg-white-information #navbar-info .banner a{
+    display: block;
+    text-decoration: none;
+    border-radius: 8px;
+    background: #25345B;
+    color:  #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    padding: 12px 30px;
+}
+.bg-white-information #navbar-info .nav-pills .nav-link{
+    padding: 13px 20px;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    color: #8D929F;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+}
+.bg-white-information #navbar-info .nav-pills .nav-link.active {
+    border-radius: 12px;
+    background: #F7F8F9;
+    color: #25345B;
+}
+.bg-white-information #navbar-info .nav-pills .nav-link.active::after {
+    flex-shrink: 0;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-left: auto;
+    content: "";
+    background-image: url("data: image/svg+xml, <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='rgba(37, 52, 91, 1)' ><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z' /></svg>");
+    background-repeat: no-repeat;
+    background-size: 1.25rem;
+    transition: transform .2s ease-in-out;
+    rotate: 270deg;
+}
+.bg-white-information #text-info{
+    padding-left: 50px;
+}
+.bg-white-information .info .title{
+    color:  #25345B;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 48px;
+    margin-bottom: 48px;
+}
+
+
+
+/* ФОРМИРОВАНИЕ ЦЕНЫ */
+.bg-white-information #item-1{
+    margin-bottom: 160px;
+}
+.bg-white-information .info .sub-title{
+    color: var(--primary-black, #25345B);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    margin-bottom: 40px;
+}
+
+.bg-white-information #item-1 .text:last-child:last-child{
+    margin-bottom: 40px;
+}
+.bg-white-information .info .example-calculation .sub-title{
+    margin-bottom: 24px;
+}
+.bg-white-information .info .example-calculation .sub-title:last-child{
+    margin-bottom: 40px;
+}
+.bg-white-information .info .example-calculation .item-example{
+    margin-bottom: 20px;
+    overflow-x: auto;
+}
+.bg-white-information .info .example-calculation .item-example .row-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 0 30px;
+}
+.bg-white-information .info .example-calculation .item-example p{
+    margin-bottom: 0;
+    color:  #25345B;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.bg-white-information .info .example-calculation .item-example .row-item:nth-child(even),
+.bg-white-information .info .example-calculation .item-example .row-item:nth-child(even) .txt,
+.bg-white-information .info .example-calculation .item-example .row-item:nth-child(even) .but{
+    background: #fff;
+}
+.bg-white-information .info .example-calculation .item-example .row-item:nth-child(odd),
+.bg-white-information .info .example-calculation .item-example .row-item:nth-child(odd) .txt,
+.bg-white-information .info .example-calculation .item-example .row-item:nth-child(odd) .but{
+    background:  #F7F8F9;
+}
+.bg-white-information .info .example-calculation .item-example .row-item:last-child,
+.bg-white-information .info .example-calculation .item-example .row-item:last-child .txt,
+.bg-white-information .info .example-calculation .item-example .row-item:last-child .but{
+    background: #EEF0F3;
+}
+.bg-white-information .info .example-calculation .item-example .row-item:last-child .txt p,
+.bg-white-information .info .example-calculation .item-example .row-item:last-child .but p{
+    font-weight: 600;
+    line-height: 26px;
+}
+.bg-white-information .info .example-calculation .item-example .row-item .txt{
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.bg-white-information .info .example-calculation .item-example .row-item .but{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 15px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    white-space: nowrap;
+} 
+.bg-white-information .info .example-calculation .item-example .row-item .but button{
+    background: transparent;
+    border-radius: 50%;
+    border: 1.5px solid #8D929F;
+    opacity: 0.5;
+    color: #8D929F;
+    width: 20px;
+    height: 20px;
+    margin-left: 8px;
+    font-size: 14px;
+    line-height: 14px;
+}
+.bg-white-information .info .example-calculation .item-example .row-item .but button:hover{
+    opacity: 1;
+}
+
+.bg-white-information .info .blue-block{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 22px 30px;
+    border-radius: 16px;
+    background: #ecf2fd;
+}
+.bg-white-information .info .blue-block p{
+    color:  #25345B;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    margin-bottom: 0;
+}
+.bg-white-information .info .blue-block button,
+.bg-white-information .info .blue-block a{
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    padding: 12px 24px;
+    border-radius: 8px;
+    background:  #25345B;
+    border: 0;
+    text-decoration: none;
+}
+.bg-white-information .info .blue-block div:last-child{
+    display: flex;
+    justify-content: end;
+}
+/* END-ФОРМИРОВАНИЕ ЦЕНЫ */
+
+
+/* НАШИ УСЛУГИ */
+.bg-white-information #item-2{
+    margin-bottom: 160px;
+}
+.bg-white-information #item-2 .cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+.bg-white-information #item-2 .cards .card{
+    width: 48%;
+    padding: 40px;
+    border-radius: 30px;
+    border: 2px solid var(--light-gray-2, #EEF0F3);
+    background: #FFF;
+    margin-bottom: 20px;
+}
+.bg-white-information #item-2 .cards .card .card-body,
+.bg-white-information #item-3 .cards .card .card-body{
+    padding: 0;
+}
+.bg-white-information #item-2 .cards .card .card-title{
+    color:  #25345B;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    margin-bottom: 16px;
+}
+.bg-white-information #item-2 .cards .card .card-text{
+    color: #25345B;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 0;
+}
+.bg-white-information #item-2 .cards .card .card-text span{
+    font-weight: 600;
+}
+.bg-white-information #item-2 div>.sub-title{
+    margin-bottom: 20px;
+}
+.bg-white-information #item-2 div>.text{
+    color: #25345B;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 40px;
+}
+/* END-НАШИ УСЛУГИ */
+
+
+/* СТАТУС КЛИЕНТА */
+.bg-white-information #item-3{
+    margin-bottom: 130px;
+}
+.bg-white-information #item-3 .cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.bg-white-information #item-3 .cards .card {
+    width: 48%;
+    padding-bottom: 40px;
+    border-radius: 20px;
+    border: 2px solid var(--light-gray-2, #EEF0F3);
+    background: #FFF;
+    margin-bottom: 30px;
+}
+.bg-white-information #item-3 .cards .card .up{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 40px 14px 40px;
+    border-radius: 20px 20px 0px 0px;
+    background:  #F7F8F9;
+}
+.bg-white-information #item-3 .cards .card .up>button{
+    background: transparent;
+    border-radius: 50%;
+    border: 1.5px solid #8D929F;
+    opacity: 0.7;
+    color: #8D929F;
+    width: 22px;
+    height: 22px;
+    margin-left: 8px;
+    font-size: 16px;
+    line-height: 16px;
+}
+.bg-white-information #item-3 .cards .card .up>button:hover{
+    opacity: 1;
+}
+.tooltip-inner{
+    background-color: transparent;
+    max-width: 380px;
+    background: #F7F8F9;
+    box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.20);
+    border-radius: 12px;
+}
+.tooltip.show {
+    opacity: 1;
+}
+.tooltip .tooltip-arrow {
+    display: none;
+}
+.tooltip-inner .info-block{
+    padding: 20px 30px;
+}
+.tooltip-inner .info-block p{
+    color: #25345B;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    margin-bottom: 0;
+}
+
+.bg-white-information #item-3 .cards .card .card-title{
+    color: #25345B;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    margin-bottom: 0;
+}
+.bg-white-information #item-3 .cards .card:nth-child(2) .card-subtitle,
+.bg-white-information #item-3 .cards .card:nth-child(2) .up{
+    background: #EDF2FD;
+}
+.bg-white-information #item-3 .cards .card:nth-child(2){
+    border-color: #E3ECFC;
+}
+.bg-white-information #item-3 .cards .card .card-subtitle{
+    padding: 0 40px 40px 40px;
+    color:  #25345B;
+    background:  #F7F8F9;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+
+.bg-white-information #item-3 .cards .card .card-text{
+    padding: 0 40px;
+    color:  #25345B;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+.bg-white-information #item-3 .cards .card .card-text:last-child{
+    margin-bottom: 0;
+}
+/* END-СТАТУС КЛИЕНТА */
+
+
+/* ДЕПОЗИТНАЯ ПРОГРАММА */
+.bg-white-information #item-4{
+    margin-bottom: 160px;
+}
+.bg-white-information #item-4>.sub-title,
+.bg-white-information #item-4 .accordion-body>.sub-title{
+    padding: 30px 40px;
+    color: #477EEC;
+    border-radius: 20px;
+    background: #eef4fd;
+    margin-bottom: 20px;
+}
+.bg-white-information #item-4 .grey-block,
+.bg-white-information #item-5 .grey-block{
+    padding: 30px 40px;
+    border-radius: 20px;
+    background: #F7F8F9;
+}
+.bg-white-information #item-4 .grey-block>.sub-title{
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.bg-white-information #item-4 .grey-block>.text,
+.bg-white-information #item-5 .grey-block>.text{
+    color: var(--primary-black, #25345B);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    margin-bottom: 18px;
+}
+.bg-white-information #item-4 .grey-block>.text span,
+.bg-white-information #item-5 .grey-block>.text span{
+    font-weight: 700;
+}
+.bg-white-information #item-4 .white-block{
+    padding: 30px 40px;
+}
+.bg-white-information #item-4 .white-block .text:last-child,
+.bg-white-information #item-4 .grey-block>.text:last-child,
+.bg-white-information #item-5 .grey-block>.text:last-child{
+    margin-bottom: 0;
+}
+.bg-white-information #item-4 .white-block .text{
+    color: var(--primary-black, #25345B);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    margin-bottom: 18px;
+}
+.bg-white-information #item-4 .white-block .text span{
+    font-weight: 700;
+}
+
+.bg-white-information #item-4 .grey-block:last-child>.text{
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.bg-white-information #item-4 .grey-block:last-child>div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bg-white-information #item-4 .grey-block:last-child a{
+    display: block;
+    padding: 12px 24px;
+    color:  #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    border-radius: 8px;
+    background:  #25345B;
+    text-decoration: none;
+}
+
+/* END-ДЕПОЗИТНАЯ ПРОГРАММА */
+
+
+/* ДЕПОЗИТ */
+.bg-white-information #item-5{
+    margin-bottom: 160px;
+}
+.bg-white-information #item-5 img,
+.bg-white-information #item-6 img,
+.bg-white-information #item-7 img,
+.bg-white-information #item-8 img,
+.bg-white-information #item-10 img,
+.bg-white-information #item-11 img{
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+    margin-bottom: 60px;
+}
+.bg-white-information #item-5 .grey-block{
+    margin-bottom: 40px;
+}
+.bg-white-information #item-5 .grey-block>.sub-title{
+    margin-bottom: 24px;
+}
+.bg-white-information #item-5 .step{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+.bg-white-information #item-5 .step p{
+    color:  #25345B;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    margin-bottom: 0;
+}
+.bg-white-information #item-5 .step p span{
+    font-weight: 600;
+}
+.bg-white-information #item-5 .step>p{
+    width: 92%;
+}
+.bg-white-information #item-5 .step .number{
+    border-radius: 46px;
+    border: 2px solid var(--light-gray-2, #EEF0F3);
+    background: #FFF;
+    width: 46px;
+    height: 46px;
+    position: relative;
+}
+.bg-white-information #item-5 .step:not(:last-child) .number::before{
+    content: '';
+    position: absolute;
+    background: #EEF0F3;
+    width: 2px;
+    height: 60px;
+    top: 40px;
+    right: 46%;
+    z-index: -2;
+}
+.bg-white-information #item-5 .step .number>p{
+    font-size: 20px;
+    line-height: 46px;
+    text-align: center;
+}
+.bg-white-information #item-5 .steps{
+    margin-bottom: 40px;
+}
+/* END-ДЕПОЗИТ */
+
+
+/* МЕНЕДЖЕРЫ CAROUTLET */
+
+.bg-white-information #item-6,
+.bg-white-information #item-7,
+.bg-white-information #item-8,
+.bg-white-information #item-9,
+.bg-white-information #item-10{
+    margin-bottom: 160px;
+}
+.bg-white-information #item-6 .title,
+.bg-white-information #item-7 .title{
+    margin-bottom: 20px;
+}
+.bg-white-information #item-1 .text,
+.bg-white-information #item-6 .text,
+.bg-white-information #item-7 .text,
+.bg-white-information #item-8 .text,
+.bg-white-information #item-9 .text,
+.bg-white-information #item-10 .text,
+.bg-white-information #item-11 .text{
+    color: #25345B;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 18px;
+}
+.bg-white-information #item-6 .text:last-child,
+.bg-white-information #item-7 .text:last-child{
+    margin-bottom: 60px;
+}
+.bg-white-information #item-1 .text span,
+.bg-white-information #item-6 .text span,
+.bg-white-information #item-7 .text span,
+.bg-white-information #item-8 .text span,
+.bg-white-information #item-9 .text span,
+.bg-white-information #item-10 .text span,
+.bg-white-information #item-11 .text span{
+    font-weight: 600;
+}
+/* END-МЕНЕДЖЕРЫ CAROUTLET */
+
+/* БРОКЕРЫ CAROUTLET */
+
+.bg-white-information #item-7 .bg-grey{
+    padding: 40px;
+    border-radius: 20px;
+    background: var(--light-gray, #F7F8F9);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.bg-white-information #item-7 .bg-grey div{
+    width: 47%;
+}
+.bg-white-information #item-7 .bg-grey .text:last-child{
+    margin-bottom: 0;
+}
+/* END-БРОКЕРЫ CAROUTLET */
+
+
+/* ДОСТАВКА */
+
+.bg-white-information #item-8 .text:last-child,
+.bg-white-information #item-9 .text:last-child{
+    margin-bottom: 40px;
+}
+.bg-white-information #item-8 .bg-white,
+.bg-white-information #item-11 .bg-white{
+    background: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    border: 2px solid #EEF0F3;
+    margin-bottom: 40px;
+}
+.bg-white-information #item-8 .bg-white .text{
+    margin-bottom: 0;
+    line-height: 30px;
+}
+/* END-ДОСТАВКА */
+
+
+/* СКИДКА НА РАСТАМОЖКУ */
+
+.bg-white-information #item-9 div>.sub-title{
+    margin-bottom: 24px;
+}
+.bg-white-information #item-9 .table-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    overflow-x: auto;
+}
+.bg-white-information #item-9 .table-info p{
+    color: #25345B;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 10px 30px;
+    margin-bottom: 0;
+    white-space: nowrap;
+}
+.bg-white-information #item-9 .table-info div>p:first-child{
+    line-height: 26px;
+    font-weight: 600;
+}
+.bg-white-information #item-9 .table-info div>p:nth-child(even) {
+    background: #fff;
+}
+.bg-white-information #item-9 .table-info div>p:nth-child(odd) {
+    background: #F7F8F9;
+}
+.bg-white-information .text a{
+    color: #25345B;
+}
+.bg-white-information #item-9 .bg-grey{
+    padding: 40px;
+    border-radius: 20px;
+    background: #F7F8F9;
+    margin-bottom: 40px;
+}
+.bg-white-information #item-9 .bg-grey>.text{
+    font-weight: 500;
+}
+.bg-white-information #item-9 .bg-grey>.text:last-child{
+    margin-bottom: 0;
+}
+/* END-СКИДКА НА РАСТАМОЖКУ*/
+
+
+/* КРИДИТ ЛИЗИНГ*/
+.bg-white-information #item-10 .text{
+    margin-bottom: 40px;
+}
+.bg-white-information #item-10 img,
+.bg-white-information #item-11 img{
+    margin-bottom: 30px;
+}
+.bg-white-information #item-10 .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.bg-white-information #item-10 .button button {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    padding: 12px 24px;
+    border-radius: 8px;
+    background: #25345B;
+    border: 0;
+}
+/* END-КРИДИТ ЛИЗИНГ*/
+
+
+/* ТАМОЖЕННОЕ ОФОРМЛЕНИЕ*/
+.bg-white-information #item-11{
+    margin-bottom: 180px;
+}
+.bg-white-information #item-11 .text:last-child{
+    margin-bottom: 40px;
+}
+.bg-white-information #item-11 .bg-white div>.text{
+    margin-bottom: 24px;
+    line-height: 30px;
+}
+.bg-white-information #item-11 .bg-white div:last-child>.text{
+    margin-bottom: 0;
+}
+/* END-ТАМОЖЕННОЕ ОФОРМЛЕНИЕ*/
+/* end-bg-white-information */
+
+
+/* мобильная версия */
+.bg-white-information .mobile{
+    display: none;
+}
+
+.accordion-button:not(.collapsed){
+    box-shadow: 0 0 0 0;
+    background: #fff;
+}
+.accordion-button:focus{
+    border: 0;
+    box-shadow: 0 0 0 0;
+}
+.accordion-item{
+    border: 0;
+}
+.accordion-button,
+.accordion-button:not(.collapsed){
+    color: #25345B;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 38px;
+}
+.accordion-button::after,
+.accordion-button:not(.collapsed)::after{
+    background-image: url("data: image/svg+xml, <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='rgba(37, 52, 91, 1)' ><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z' /></svg>");
+    width: 32px;
+    height: 32px;
+    background-size: 32px;
+}
+#accordionExample{
+    margin-bottom: 60px;
+}

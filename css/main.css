@@ -1,0 +1,403 @@
+body {
+    padding: 0;
+    color: #25345B;
+    font-family: 'tilda-sans';
+    font-weight: 500;
+}
+
+/* ---CHAT-BUTTON--- */
+
+.chat-button {
+    position: fixed;
+    right: 2%;
+    bottom: 10%;
+    width: 92px;
+    height: 92px;
+    z-index: 5;
+    background: transparent;
+    border-radius: 92px;
+    padding: 0;
+    border: 0;
+}
+
+.chat-button .ellipse-light-blue {
+    width: 100%;
+    height: 100%;
+    border-radius: 92px;
+    /* opacity: 0.10000000149011612; */
+    background: #477eec1c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chat-button .ellipse-blue {
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    background: #477EEC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chats .dropdown-menu.show {
+    background: transparent;
+    box-shadow: 0 0 0 0 transparent;
+    height: 92px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+}
+
+.chats .messengers-chat img {
+    height: 50px;
+    width: auto;
+    border-radius: 40px;
+    margin-right: 15px;
+}
+
+/* ---END-CHAT-BUTTON--- */
+
+/* ---NAVBAR--- */
+
+
+.navbar {
+    background-color: #fff;
+    box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.15);
+}
+
+.navbar-brand img {
+    vertical-align: sub;
+}
+
+.navbar-nav {
+    font-size: 17px;
+}
+
+.navbar-nav .nav-link {
+    color: #8D929F;
+}
+
+.navbar-nav .nav-item .nav-link {
+    padding: 8px 16px;
+    color: #8D929F;
+}
+
+.navbar-nav .nav-item .nav-link.active{
+    color: #25345B;
+    text-decoration: underline;
+}
+
+.navbar-nav .nav-item.registration a,
+.navbar-nav .nav-item.select-car a {
+    font-size: 16px;
+}
+
+.navbar-nav .nav-item.select-car a {
+    color: #477EEC;
+}
+
+.navbar-nav .nav-item.registration a {
+    color: #25345B;
+}
+
+.navbar-nav .nav-item.registration,
+.navbar-nav .nav-item.select-car {
+    background-color: #fff;
+    border-radius: 8px;
+    outline: 2px solid;
+}
+
+.navbar-nav .nav-item.registration {
+    outline-color: #87898B80;
+    margin-right: 10px;
+}
+
+/* .navbar-nav .nav-item.registration a:hover{
+    color: #fff;
+}
+.navbar-nav .nav-item.registration:hover {
+    border-color:#0E1D44;
+    background-color: #0E1D44;
+}  */
+
+.navbar-nav .nav-item.select-car {
+    outline-color: #477EEC80;
+}
+
+/* кнопка бургер-меню */
+.navbar-light .navbar-toggler {
+    border-width: 0;
+    color: transparent;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url(../image/icon/burger-menu.svg);
+}
+
+button:focus:not(:focus-visible) {
+    outline: 0;
+}
+
+.offcanvas-header .btn-close {
+    background: transparent;
+    opacity: 1;
+    width: 24px;
+    height: 24px;
+}
+
+.offcanvas-header .btn-close .toogle-item-close {
+    background: url(../image/icon/close-menu.svg);
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    vertical-align: top;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+/* end-кнопка бургер-меню */
+.number.collapse.show {
+    display: none;
+    border-radius: 8px;
+    background: #EEF0F3;
+    padding: 6px 10px;
+}
+
+.number.collapse.show a {
+    text-decoration: none;
+    color: #25345B;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+/* бургер меню в моб версии */
+
+.offcanvas-header {
+    padding: 12px 20px 22px 20px;
+}
+
+.offcanvas-body {
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.offcanvas-body .navbar-nav .nav-item .nav-link {
+    padding: 10px 0;
+}
+
+.offcanvas-body .navbar-nav .nav-item:first-child .nav-link {
+    padding-top: 0;
+}
+
+.offcanvas-body .navbar-nav .nav-item:last-child .nav-link {
+    padding-bottom: 0;
+}
+
+.offcanvas-body .navbar-nav .nav-item .nav-link {
+    color: #25345B;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+.offcanvas-body>div>.navbar-nav {
+    margin-bottom: 26px;
+}
+
+.offcanvas-body .navbar-nav.buts {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.offcanvas-body .navbar-nav .nav-item.nav-item.registration .nav-link,
+.offcanvas-body .navbar-nav .nav-item.nav-item.select-car .nav-link {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    padding: 8px 16px;
+}
+
+.offcanvas-body .navbar-nav .nav-item.nav-item.select-car .nav-link {
+    color: #477EEC;
+}
+
+.offcanvas-body .navbar-nav .nav-item .nav-link .tel-img {
+    height: 16px;
+    width: auto;
+    margin-right: 10px;
+}
+
+.offcanvas-body .navbar-nav.phones .nav-item {
+    padding: 8px 16px;
+    border-radius: 8px;
+    background: #F7F8F9;
+    text-align: center;
+}
+
+.offcanvas-body .navbar-nav.phones .nav-item:not(:last-child) {
+    margin-bottom: 8px;
+}
+
+.offcanvas-body .navbar-nav.phones .nav-item .nav-link {
+    color: #25345B;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    padding: 0;
+}
+
+/* end-бургер меню в моб версии */
+
+/* ---выпад список с номерами--- */
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.dropdown-menu[data-bs-popper] {
+    right: 0;
+    left: auto;
+}
+
+.dropdown-menu.show {
+    padding: 16px;
+    border-radius: 12px;
+    background: #FFF;
+    box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.15);
+    border-width: 0;
+    margin-top: 8px;
+}
+
+.nav-item.dropdown .tel-img,
+.nav-item>.dropdown-item .tel-img {
+    height: 16px;
+    width: auto;
+}
+
+.nav-item.dropdown .dropdown-toggle {
+    color: #25345B;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+.nav-item.dropdown .dropdown-toggle .tel-img:not(:last-child),
+.nav-item.dropdown .dropdown-menu li .dropdown-item .tel-img {
+    margin-right: 8px;
+}
+
+.nav-item.dropdown .dropdown-toggle .tel-img:first-child {
+    margin-left: 10px;
+}
+
+.nav-item.dropdown .dropdown-menu li {
+    text-align: right;
+}
+
+.nav-item.dropdown .dropdown-menu .dropdown-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    color: #25345B;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.nav-item.dropdown .dropdown-menu li:not(:last-child) .dropdown-item {
+    margin-bottom: 12px;
+}
+
+.nav-link.dropdown-toggle {
+    font-size: 20px;
+    line-height: 26px;
+    padding: 10px 16px;
+}
+
+/* ---END-выпад список с номерами--- */
+
+
+/* ---END-NAVBAR--- */
+
+
+
+main {
+    margin-top: 62px;
+}
+
+
+
+/* ---FOOTER--- */
+
+footer {
+    background: #F7F8F9;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+footer .block-info>.logo-copyright>img {
+    height: 20px;
+    width: auto;
+    margin-bottom: 8px;
+}
+footer .block-info>.logo-copyright{
+    margin-right: 40px;
+}
+footer .block-info>.logo-copyright>p {
+    color: #8D929F;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    margin-bottom: 0;
+}
+
+footer .block-info,
+footer .information {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer .block-info .info:not(:last-child) {
+    margin-right: 40px;
+}
+
+footer .block-info .info,
+footer .block-info .info a {
+    color: #25345B;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    text-decoration: none;
+}
+
+footer .block-info .info a {
+    cursor: pointer;
+    display: block;
+}
+
+footer .block-info .info .title {
+    font-weight: 600;
+}
+
+footer .block-info .info p {
+    margin-bottom: 0;
+}
+
+/* ---END-FOOTER--- */

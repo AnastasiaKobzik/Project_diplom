@@ -1,0 +1,454 @@
+@media only screen and (max-width : 2000px) {
+
+    /* bg-main-top */
+    .bg-main-top::after {
+        left: -12%;
+    }
+
+    /* end-bg-main-top */
+}
+
+@media only screen and (max-width : 1900px) {
+
+    /* bg-main-top */
+    .bg-main-top::after {
+        left: -15%;
+    }
+
+    /* end-bg-main-top */
+}
+
+@media only screen and (max-width : 1800px) {
+
+    /* bg-main-top */
+    .bg-main-top::after {
+        left: -18%;
+    }
+
+    /* end-bg-main-top */
+}
+
+@media only screen and (max-width : 1700px) {
+
+    /* bg-main-top */
+    .bg-main-top::after {
+        left: -23%;
+    }
+
+    /* end-bg-main-top */
+}
+
+@media only screen and (max-width : 1600px) {
+
+    /* bg-main-top */
+    .bg-main-top::after {
+        left: -27%;
+    }
+
+    /* end-bg-main-top */
+}
+
+@media only screen and (max-width : 1500px) {
+
+    /* bg-main-top */
+    .bg-main-top::after {
+        left: -32%;
+    }
+    /* end-bg-main-top */
+
+}
+
+@media only screen and (max-width : 1400px) {
+    .bg-white-information #item-3 .cards .card{
+        width: 49%;
+        padding-bottom: 35px;
+    }
+    .bg-white-information #item-3 .cards .card .up{
+        padding: 35px 35px 14px 35px;
+    }
+    .bg-white-information #item-3 .cards .card .card-subtitle{
+        padding: 0 35px 35px 35px;
+    }
+    .bg-white-information #item-3 .cards .card .card-text{
+        padding: 0 35px;
+    }
+}
+
+@media only screen and (max-width : 1300px) {
+
+    /* bg-main-top */
+    .bg-main-top::after {
+        left: -39%;
+    }
+    .bg-white-information #navbar-info .banner{
+        padding: 20px;
+    }
+    .bg-white-information #navbar-info .banner a{
+        padding: 12px 20px;
+    }
+
+}
+
+@media only screen and (max-width : 1200px) {
+
+    /* bg-main-top */
+    .bg-main-top .main-text-but .main-text {
+        font-size: 50px;
+        line-height: 58px;
+    }
+    .bg-main-top::before {
+        display: none;
+    }
+    .bg-main-top::after {
+        left: 0%;
+        width: 350%;
+        height: 350%;
+        top: -50%;
+    }
+    .bg-main-top{
+        margin-bottom: 140px;
+    }
+    .bg-white-information #text-info{
+        padding-left: 25px;
+    }
+    .bg-white-information #item-1, .bg-white-information #item-2,
+    .bg-white-information #item-3, .bg-white-information #item-4,
+    .bg-white-information #item-5, .bg-white-information #item-6,
+    .bg-white-information #item-7, .bg-white-information #item-8,
+    .bg-white-information #item-9, .bg-white-information #item-10
+    .bg-white-information #item-11{
+        margin-bottom: 130px;
+    }
+    .bg-white-information #item-3 .cards .card .up{
+        padding: 30px 30px 14px 30px;
+    }
+    .bg-white-information #item-3 .cards .card .card-subtitle{
+        padding: 0 30px 30px 30px;
+    }
+    .bg-white-information #item-3 .cards .card .card-text{
+        padding: 0 30px;
+    }
+    .bg-white-information #item-3 .cards .card{
+        padding-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width : 1100px) {
+
+    /* bg-main-top */
+    .bg-main-top::after {
+        left: -10%;
+    }
+    .bg-white-information #navbar-info .nav-pills .nav-link{
+        padding: 10px 15px;
+    }
+    .bg-main-top{
+        margin-bottom: 130px;
+    }
+    .bg-white-information #item-1, .bg-white-information #item-2,
+    .bg-white-information #item-3, .bg-white-information #item-4,
+    .bg-white-information #item-5, .bg-white-information #item-6,
+    .bg-white-information #item-7, .bg-white-information #item-8,
+    .bg-white-information #item-9, .bg-white-information #item-10
+    .bg-white-information #item-11{
+        margin-bottom: 120px;
+    }
+    .bg-white-information #item-2 .cards .card,
+    .bg-white-information #item-7 .bg-grey,
+    .bg-white-information #item-4 .grey-block,
+    .bg-white-information #item-4>.sub-title,
+    .bg-white-information #item-8 .bg-white, 
+    .bg-white-information #item-11 .bg-white,
+    .bg-white-information #item-9 .bg-grey{
+        padding: 30px;
+    }
+
+    .bg-white-information #item-3 .cards .card .up{
+        padding: 25px 25px 14px 25px;
+    }
+    .bg-white-information #item-3 .cards .card .card-subtitle{
+        padding: 0 25px 25px 25px;
+    }
+    .bg-white-information #item-3 .cards .card .card-text{
+        padding: 0 25px;
+    }
+    .bg-white-information #item-3 .cards .card{
+        padding-bottom: 25px;
+    }
+    .bg-white-information #item-3 .cards .card .card-title{
+        font-size: 22px;
+        line-height: 28px;
+    }
+}
+
+@media only screen and (max-width : 1000px) {
+
+}
+
+@media only screen and (max-width : 992px) {
+
+    /* bg-main-top */
+
+
+    .bg-main-top .container-lg {
+        padding: 0 24px;
+    }
+    .bg-white-information .desctop{
+        display: none;
+    }
+    .bg-white-information .mobile{
+        display: block;
+    }
+    .bg-main-top{
+        margin-bottom: 80px;
+    }
+    .bg-white-information #item-5 .step:not(:last-child) .number::before{
+        z-index: 0;
+        top: 42px;
+    }
+}
+
+@media only screen and (max-width : 768px) {
+
+    /* bg-main-top */
+    .bg-main-top::after {
+        width: 400%;
+        height: 400%;
+    }
+    .bg-white-information .info .blue-block{
+        flex-wrap: wrap;
+    }
+    .bg-white-information .info .blue-block div:last-child{
+        justify-content: center;
+        margin-top: 24px;
+    }
+    .bg-white-information #item-2 .cards .card, .bg-white-information #item-7 .bg-grey,
+    .bg-white-information #item-4 .grey-block, .bg-white-information #item-4>.sub-title,
+    .bg-white-information #item-8 .bg-white, .bg-white-information #item-11 .bg-white,
+    .bg-white-information #item-9 .bg-grey, 
+    .bg-white-information #item-4 .accordion-body>.sub-title, .bg-white-information #item-4 .white-block,
+    .bg-white-information #item-5 .grey-block{
+        padding: 20px;
+    }
+    .bg-white-information #item-2 .cards .card{
+        border-radius: 20px;
+        width: 49%;
+    }
+    .bg-white-information #item-3 .cards .card{
+        width: 100%;
+    }
+    .bg-white-information #item-3 .cards .card .card-title{
+        font-size: 26px;
+        line-height: 32px;
+    }
+    .bg-white-information #item-3 .cards .card .up{
+        padding-top:  30px 20px 8px 20px;
+    }
+    .bg-white-information #item-3 .cards .card .card-subtitle{
+        padding: 0 20px 30px 20px;
+    }
+    .bg-white-information #item-3 .cards .card .card-text{
+        padding: 0 20px;
+    }
+    .bg-white-information #item-3 .cards .card{
+        padding-bottom: 30px;
+    }
+    .bg-white-information #item-3 .cards .card:last-child{
+        margin-bottom: 0;
+    }
+    .bg-white-information #item-5 img, .bg-white-information #item-6 img, 
+    .bg-white-information #item-7 img, .bg-white-information #item-8 img, 
+    .bg-white-information #item-10 img, .bg-white-information #item-11 img{
+        margin-bottom: 40px;
+        border-radius: 20px;
+    }
+    .bg-white-information #item-5 .step>p{
+        width: 90%;
+    }
+    .bg-white-information #item-5 .step:not(:last-child) .number::before{
+        height: 100px;
+    }
+    .bg-white-information #item-5 .step:last-child{
+        padding-bottom: 0;
+    }
+    .bg-white-information #item-7 .bg-grey div{
+        width: 49%;
+    }
+    .bg-white-information #item-9 .table-info p{
+        padding: 10px 20px;
+    }
+}
+
+@media only screen and (max-width : 576px) {
+
+    /* bg-main-top */
+
+    .bg-main-top .container-lg {
+        padding: 0 20px;
+    }
+
+    .bg-main-top .main-text-but .main-text {
+        font-size: 32px;
+        line-height: 36px;
+        margin-bottom: 24px;
+    }
+    .bg-main-top{
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .bg-main-top .main-text-but .sub-text{
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    .accordion-button, .accordion-button:not(.collapsed){
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .accordion-button::after, .accordion-button:not(.collapsed)::after{
+        width: 28px;
+        height: 28px;
+        background-size: 28px;
+    }
+    .bg-white-information .info .sub-title{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .bg-white-information .info .blue-block p{
+        line-height: 24px;
+    }
+    .bg-white-information .info .blue-block button,
+    .bg-white-information .info .blue-block a,
+    .bg-white-information #item-4 .grey-block:last-child a{
+        font-size: 18px;
+    }
+    .bg-white-information .info .blue-block{
+        padding: 20px;
+        text-align: center;
+    }
+    .bg-white-information .info .example-calculation .item-example .row-item{
+        padding: 0 20px;
+    }
+    .bg-white-information .info .example-calculation .item-example .row-item .txt{
+        padding: 10px 0;
+    }
+    .bg-white-information .info .example-calculation .item-example .row-item .but{
+        padding: 10px 0 10px 30px;
+        width: 65%;
+    }
+    .bg-white-information #item-1, .bg-white-information #item-2,
+    .bg-white-information #item-3, .bg-white-information #item-4,
+    .bg-white-information #item-5, .bg-white-information #item-6,
+    .bg-white-information #item-7, .bg-white-information #item-8,
+    .bg-white-information #item-9, .bg-white-information #item-10,
+    .bg-white-information #item-11{
+        margin-bottom: 100px;
+    }
+    .bg-white-information #item-2 .cards{
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .bg-white-information #item-2 .cards .card{
+        width: 100%;
+    }
+    .bg-white-information #item-2 .accordion-body>p.sub-title:first-child,
+    .bg-white-information #item-6 .text:last-child{
+        margin-bottom: 40px;
+    }
+    .bg-white-information #item-2 .accordion-body>div>p.sub-title,
+    .bg-white-information #item-3 .cards .card,
+    .bg-white-information #item-5 .grey-block>.sub-title{
+        margin-bottom: 20px;
+    }
+    .bg-white-information #item-4 .accordion-body>.sub-title{
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 24px;
+    }
+    .bg-white-information #item-5 .steps>.sub-title{
+        margin-bottom: 25px;
+    }
+    .bg-white-information #item-5 .step>p{
+        width: 85%;
+    }
+    .bg-white-information #item-5 .step{
+        align-items: flex-start;
+    }
+    .bg-white-information #item-5 .step{
+        padding-bottom: 30px;
+    }
+    .bg-white-information #item-5 .steps{
+        margin-bottom: 30px;
+    }
+    .bg-white-information #item-6 .sub-title:first-child,
+    .bg-white-information #item-7 .sub-title:first-child,
+    .bg-white-information #item-7 div > .text:last-child{
+        margin-bottom: 20px;
+    }
+    .bg-white-information #item-7 .bg-grey{
+        flex-direction: column;
+        padding: 30px 20px;
+    }
+    .bg-white-information #item-9 .bg-grey{
+        padding: 30px 20px;
+    }
+    .bg-white-information #item-7 .bg-grey div{
+        width: 100%;
+    }
+    .bg-white-information #item-9 .text:last-child,
+    .bg-white-information #item-9 .bg-grey{
+        margin-bottom: 30px;
+    }
+    .bg-white-information #item-10 img,
+    .bg-white-information #item-11 img{
+        margin-bottom: 20px;
+    }
+    .bg-white-information #item-10.info .blue-block {
+        text-align: center;
+    }
+    
+}
+
+@media only screen and (max-width : 480px){
+    .accordion-button, .accordion-button:not(.collapsed){
+        font-size: 26px;
+        line-height: 32px;
+        padding-bottom: 4px;
+    }
+    .bg-white-information .info .example-calculation .item-example .row-item .but,
+    .bg-white-information #item-5 .step>p{
+        width: 80%;
+    }
+    .bg-white-information #item-9 .table-info .col-7{
+        width: 65%;
+    }
+}
+@media only screen and (max-width : 440px){
+    .bg-white-information #item-5 .step:not(:last-child) .number::before{
+        height: 135px;
+    }
+    .bg-white-information #item-9 .table-info .col-7{
+        width: 70%;
+    }
+}
+@media only screen and (max-width : 400px){
+    .bg-white-information .info .example-calculation .item-example .row-item .but{
+        width: 100%;
+        padding-left: 50px;
+    }
+    .bg-white-information #item-9 .table-info p{
+        white-space: normal;
+    }
+    .bg-white-information #item-9 .table-info .col-7{
+        width: 65%;
+    }
+}
+@media only screen and (max-width : 360px){
+    .bg-white-information #item-5 .step:not(:last-child) .number::before{
+        height: 160px;
+    }
+    .bg-white-information #item-9 .table-info .col-7{
+        width: 70%;
+    }
+}
